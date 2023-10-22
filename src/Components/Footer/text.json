@@ -1,0 +1,36 @@
+{
+    "en":{
+        "title": "Vision Care",
+        "description": "Our vision is to be the leading Saudi company in providing the latest technological solutions and services to support healthcare and catering projects, which contribute to enhancing the concept of quality of life and its sustainability in society and diverse work environments.",
+        "quick_links": "Quick Links",
+        "quick_links_routes": [
+            { "path": "/home", "name": "Home"},
+            { "path": "/about", "name": "About"},
+            { "path": "/work_scope", "name": "Work Scope"},
+            { "path": "/development", "name": "Sustainable Development"},
+            { "path": "/media_center", "name": "Media Center"},
+            { "path": "/relations", "name": "Investor Relations"},
+            { "path": "/ipo", "name": "Ipo"},
+            { "path": "/recruitment", "name": "Recruitment"},
+            { "path": "/contact_us", "name": "ContactUs"}
+        ],
+        "copy_right": "All rights reserved - Vision Care © 2023"
+    },
+    "ar":{
+        "title": "Vision Care",
+        "description": "Our vision is to be the leading Saudi company in providing the latest technological solutions and services to support healthcare and catering projects, which contribute to enhancing the concept of quality of life and its sustainability in society and diverse work environments.",
+        "quick_links": "Quick Links",
+        "quick_links_routes": [
+            { "path": "/home", "name": "Home"},
+            { "path": "/about", "name": "About"},
+            { "path": "/work_scope", "name": "Work Scope"},
+            { "path": "/development", "name": "Sustainable Development"},
+            { "path": "/media_center", "name": "Media Center"},
+            { "path": "/relations", "name": "Investor Relations"},
+            { "path": "/ipo", "name": "Ipo"},
+            { "path": "/recruitment", "name": "Recruitment"},
+            { "path": "/contact_us", "name": "ContactUs"}
+        ],
+        "copy_right": "All rights reserved - Vision Care © 2023"
+    }
+}
