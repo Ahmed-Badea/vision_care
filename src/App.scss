@@ -1,9 +1,48 @@
-.vision_content{
-  padding: 100px 0;
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./assets//fonts/Roboto/Roboto-Light.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('./assets//fonts/Roboto/Roboto-Regular.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('./assets//fonts/Roboto/Roboto-Medium.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('./assets//fonts/Roboto/Roboto-Bold.ttf') format('opentype');
 }
 
-@media (max-width: 767px) {
+@mixin m($width){
+  @media(max-width:#{$width}px){
+    @content;
+  }
+}
+@mixin en{
+  html[dir="ltr"] & {
+    @content;
+  }
+}
+@mixin ar{
+  html[dir="rtl"] & {
+    @content;
+  }
+}
+// how to use mixin
+// @include en{
+//     font-family: sans-serif;
+// }
+// @include ar{
+//     font-family: sans-serif;
+// }
+html[dir="rtl"] body{
+  text-align: right;
+}
+.App{
+  font-family: 'Roboto-Regular';
   .vision_content{
-    
+    padding-top: 88px;
   }
 }

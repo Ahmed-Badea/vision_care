@@ -14,6 +14,7 @@
             { "path": "/recruitment", "name": "Recruitment"},
             { "path": "/contact_us", "name": "ContactUs"}
         ],
+        "social": "Social Links",
         "copy_right": "All rights reserved - Vision Care © 2023"
     },
     "ar":{
@@ -31,6 +32,7 @@
             { "path": "/recruitment", "name": "Recruitment"},
             { "path": "/contact_us", "name": "ContactUs"}
         ],
+        "social": "Social Links",
         "copy_right": "All rights reserved - Vision Care © 2023"
     }
 }

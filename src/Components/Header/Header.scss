@@ -1,50 +1,99 @@
+@mixin m($width){
+    @media(max-width:#{$width}px){
+        @content;
+    }
+}
+@mixin en{
+    html[dir="ltr"] & {
+        @content;
+    }
+}
+@mixin ar{
+    html[dir="rtl"] & {
+        @content;
+    }
+}
 .vision_header{
     overflow: hidden;
     .navbar{
-        padding: 20px ;
-        background-color: #1D2641;
+        padding: 0 20px;
+        background-color: #FFF;
         text-align: center;
+        box-shadow: rgb(220, 220, 220) 0px 2px 10px;
         .navbar-brand{
-            color: #9ebbe0;
-            font-size: 26px;
-        }
-        a{
-            color: #FFF;
-            border-bottom: 1px solid #1D2641;
-            margin: 0 5px;
-            transition: all ease-in-out .2s;
-            -webkit-transition: all ease-in-out .2s;
-            -moz-transition: all ease-in-out .2s;
-            -ms-transition: all ease-in-out .2s;
-            -o-transition: all ease-in-out .2s;
-            &:hover{
-                border-bottom: 1px solid #FFF;
+            .logo{
+                width: 120px;
+                max-width: 100%;
             }
         }
+        .nav-item a{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #01338D;
+            border-bottom: 2px solid #FFF;
+            margin: 0 5px;
+            transition: all ease-in-out .2s;
+            &:hover, &.active{
+                border-bottom: 2px solid #3FD5FF;
+            }
+
+        }
         .navbar-toggler{
-            border-color: #FFF;
+            border-color: #0678D6;
+            &:focus{
+                outline: none;
+            }
         }
         .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(6,120,214,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
         }
     }
-    .lang_btn{
-        background-color: #FFF;
-        color: #1D2641;
-        &:hover, &:focus, &:active{
-            background-color: #FFF !important;
-            color: #1D2641 !important;
-            box-shadow: none !important;
+    .lang_btn_container{
+        @include en{
+            margin-left: auto;
         }
-        i{
-            margin: 0 5px;
+        @include ar{
+            margin-right: auto;
+        }
+        .lang_btn{
+            background-color: #0678D6;
+            color: #FFF;
+            border: 1px solid #0678D6 !important;
+            padding: 5px 0 5px 5px;
+            @include ar{
+                padding: 5px 5px 5px 0;
+            }
+            &:hover,
+            &:focus,
+            &:active{
+                background-color: #0678D6 !important;
+                color: #FFF !important;
+                border: 1px solid #0678D6 !important;
+                box-shadow: none !important;
+            }
+            i{
+                margin: 0 5px;
+            }
         }
     }
 }
 @media (max-width: 998px) {
     .vision_header{
-        .lang_btn{
-            margin: 10px auto;
+        .navbar{
+            .navbar-brand{
+                .logo{
+                    width: 100px;
+                }
+            }
+            .nav-item a{
+                margin: 0;
+            }
+        }
+        .lang_btn_container{
+            margin: auto !important;
+            .lang_btn{
+                margin: 10px auto;
+            }
         }
     }
 }

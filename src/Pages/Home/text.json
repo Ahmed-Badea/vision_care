@@ -1,9 +1,30 @@
 {
     "en":{
-        "home": "Home"
+        "description": "The leading Saudi company in providing the latest healthcare services, medical and non-medical operation and maintenance",
+        "work_scope": "Work Scope",
+        "work_scope_arr":[
+            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"}
+        ]
     },
     "ar":{
-        "home": "الرئيسية"
-        
+        "description": "الشركة السعودية الرائدة في تقديم أحدث خدمات الرعاية الصحية والتشغيل والصيانة الطبية وغير الطبية",
+        "work_scope": "نطاق الأعمال",
+        "work_scope_arr":[
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"},
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"},
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"},
+            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"}
+        ]        
     }
 }
