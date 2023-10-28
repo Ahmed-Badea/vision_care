@@ -26,7 +26,10 @@
         ],
         "company_brief": "The company in brief",
         "company_brief_title": "To be the leading saudi company in providing the latest healthcare services, medical and non-medical operation and maintenance",
-        "company_brief_description": "Based on the successes achieved by the founder Sheikh / Saud Muhammad Nasser Al-Arifi, by launching the House of Medical and Scientific Equipment as a sole proprietorship in 1979 in the city of Riyadh, his project was transformed into a limited liability company in 2000 with a capital of 20 million Saudis, and then into a company Closed shareholding on 2016 with a gradual ascending capital increase to currently amounting to 200 million Saudi riyals. The company has achieved many major achievements, consolidating its leadership position in the Saudi market, based on an ambitious strategic vision, through which it seeks to provide a wide range of quality solutions and services according to the highest standards of efficiency, quality and proficiency."
+        "company_brief_description": "Based on the successes achieved by the founder Sheikh / Saud Muhammad Nasser Al-Arifi, by launching the House of Medical and Scientific Equipment as a sole proprietorship in 1979 in the city of Riyadh, his project was transformed into a limited liability company in 2000 with a capital of 20 million Saudis, and then into a company Closed shareholding on 2016 with a gradual ascending capital increase to currently amounting to 200 million Saudi riyals. The company has achieved many major achievements, consolidating its leadership position in the Saudi market, based on an ambitious strategic vision, through which it seeks to provide a wide range of quality solutions and services according to the highest standards of efficiency, quality and proficiency.",
+        "inquiry": "For your inquiries and comments",
+        "contact_us_message": "We are happy to contact us",
+        "contact_us": "Conatct us"
     },
     "ar":{
         "description": "الشركة السعودية الرائدة في تقديم أحدث خدمات الرعاية الصحية، والعمليات والصيانة الطبية وغير الطبية",
@@ -55,6 +58,9 @@
         ],
         "company_brief": "الشركة بإيجاز",
         "company_brief_title": "أن نكون الشركة السعودية الرائدة في تقديم أحدث خدمات الرعاية الصحية، والعمليات والصيانة الطبية وغير الطبية.",
-        "company_brief_description": "استنادًا إلى النجاحات التي حققها المؤسس الشيخ / سعود محمد ناصر العريفي، من خلال إطلاق بيت الأجهزة الطبية والعلمية كمؤسسة فردية في عام 1979 في مدينة الرياض، تحول مشروعه إلى شركة ذات مسؤولية محدودة في عام 2000 برأسمال قدره 20 مليون ريال سعودي، ثم تحول إلى شركة مساهمة مغلقة في عام 2016 بزيادة تدريجية في رأس المال تصل حاليًا إلى 200 مليون ريال سعودي. حققت الشركة العديد من الإنجازات الكبيرة، مما زاد من مكانتها الريادية في السوق السعودي، استنادًا إلى رؤية استراتيجية طموحة تسعى من خلالها إلى تقديم مجموعة واسعة من الحلول والخدمات عالية الجودة وفقًا لأعلى معايير الكفاءة والجودة والاحتراف."
+        "company_brief_description": "استنادًا إلى النجاحات التي حققها المؤسس الشيخ / سعود محمد ناصر العريفي، من خلال إطلاق بيت الأجهزة الطبية والعلمية كمؤسسة فردية في عام 1979 في مدينة الرياض، تحول مشروعه إلى شركة ذات مسؤولية محدودة في عام 2000 برأسمال قدره 20 مليون ريال سعودي، ثم تحول إلى شركة مساهمة مغلقة في عام 2016 بزيادة تدريجية في رأس المال تصل حاليًا إلى 200 مليون ريال سعودي. حققت الشركة العديد من الإنجازات الكبيرة، مما زاد من مكانتها الريادية في السوق السعودي، استنادًا إلى رؤية استراتيجية طموحة تسعى من خلالها إلى تقديم مجموعة واسعة من الحلول والخدمات عالية الجودة وفقًا لأعلى معايير الكفاءة والجودة والاحتراف.",
+        "inquiry": "للاستفسارات والتعليقات الخاصة بك",
+        "contact_us_message": "نحن سعداء بالتواصل معنا",
+        "contact_us": "تواصل معنا"
     }
 }

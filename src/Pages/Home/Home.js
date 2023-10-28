@@ -83,6 +83,19 @@ function Home() {
         </Row>
       </div>
       <div className='contact_us'>
+        <Container>
+          <div className='contact_us_conatiner'>
+            <Row>
+              <Col lg={6}>
+                <p>{Text.inquiry}</p>
+                <h4>{Text.contact_us_message}</h4>
+              </Col>
+              <Col lg={6}>
+                <a href='/contact_us'>{Text.contact_us}</a>
+              </Col>
+            </Row>
+          </div>
+        </Container>
       </div>
     </div>
   )

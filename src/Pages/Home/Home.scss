@@ -37,7 +37,7 @@
     background: url("../../assets/images/home.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: calc(100vh - 130px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +58,7 @@
     p {
       font-family: "Roboto-Light";
       position: absolute;
-      top: 30vh;
+      top: 20vh;
       z-index: 2;
       color: #fff;
       font-size: 45px;
@@ -170,6 +170,7 @@
     color: #04035F;
     img{
       width: 100%;
+      height: 100%;
       max-width: 100%;
     }
     .brief {
@@ -198,18 +199,77 @@
       }
     }
   }
+  // Contact Us
+  .contact_us{
+    padding: 100px 0;
+    .contact_us_conatiner{
+      background-image: url(../../assets/images/contact_us.png);
+      background-size: cover;
+      padding: 100px 50px;
+      margin: auto;
+      color: #FFF;
+      text-transform: uppercase;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      p{
+        font-size: 18px;
+      }
+      h4{
+        font-size: 30px;
+        font-family: "Roboto-Bold";
+      }
+      a{
+        display: block;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+        color: #FFF;
+        background-color: #0678D6;
+        border: 1px solid#0678D6;
+        width: 200px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 24px;
+        text-decoration: none;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition: all ease-in-out .3s;
+        -webkit-transition: all ease-in-out .3s;
+        -moz-transition: all ease-in-out .3s;
+        -ms-transition: all ease-in-out .3s;
+        -o-transition: all ease-in-out .3s;
+        &:hover{
+          background-color: #FFF;
+          color: #0678D6;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 991px) {
   .home_container {
     .header {
+      height: calc(100vh - 110px);
       p {
+        top: 25vh;
         font-size: 25px;
         padding: 0 20px;
       }
     }
+    // Work Scope
     .work_scope {
-      padding: 20px 0;
+      padding: 20px 10px;
+      h2{
+        margin-bottom: 30px;
+      }
     }
+    // Company Brief
     .company_brief {
       display: block;
       padding: 0 15px 20px;
@@ -220,6 +280,24 @@
         padding: 40px 0;
         h3 {
           margin: 20px 0;
+        }
+      }
+    }
+    // Contact US
+    .contact_us{
+      padding: 100px 0;
+      .contact_us_conatiner{
+        padding: 100px 30px;
+        text-align: center;
+        p{
+          font-size: 18px;
+        }
+        h4{
+          font-size: 30px;
+          font-family: "Roboto-Bold";
+        }
+        a{
+          margin: 20px auto 0;
         }
       }
     }
