@@ -24,6 +24,14 @@
             .logo{
                 width: 120px;
                 max-width: 100%;
+                transition: all ease-in-out .3s;
+                &:hover{
+                    transform: translateX(20px) rotate(20deg);
+                    -webkit-transform: translateX(20px) rotate(20deg);
+                    -moz-transform: translateX(20px) rotate(20deg);
+                    -ms-transform: translateX(20px) rotate(20deg);
+                    -o-transform: translateX(20px) rotate(20deg);
+}
             }
         }
         .nav-item a{
@@ -41,7 +49,7 @@
         .navbar-toggler{
             border-color: #0678D6;
             &:focus{
-                outline: none;
+                box-shadow: none;
             }
         }
         .navbar-toggler-icon {
@@ -59,9 +67,9 @@
             background-color: #0678D6;
             color: #FFF;
             border: 1px solid #0678D6 !important;
-            padding: 5px 0 5px 5px;
+            padding: 10px 0 10px 10px;
             @include ar{
-                padding: 5px 5px 5px 0;
+                padding: 10px 10px 10px 0;
             }
             &:hover,
             &:focus,
@@ -72,9 +80,14 @@
                 box-shadow: none !important;
             }
             i{
-                margin: 0 5px;
+                margin: 0 10px;
             }
-        }
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+}
     }
 }
 @media (max-width: 998px) {

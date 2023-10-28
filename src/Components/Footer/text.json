@@ -1,7 +1,8 @@
 {
     "en":{
-        "title": "Vision Care",
-        "description": "Our vision is to be the leading Saudi company in providing the latest technological solutions and services to support healthcare and catering projects, which contribute to enhancing the concept of quality of life and its sustainability in society and diverse work environments.",
+        "title": "Talent Vision Care",
+        "description": "We are Saudi Healthcare Company, specializing in Ophthalmic Medical Devices and Consumables, as well as cosmeceuticals and nutraceutical products. With locations in Riyadh, Dammam, and Jeddah, we have established ourselves as a reputable company covering all territories in the Kingdom of Saudi Arabia.",
+        "goal": "Our goal is to expand our reach and cover the MENA region (Middle East and North Africa) by the end of 2028. Our team consists of experienced professionals with over 50 years of cumulative experience in the pharmaceutical industry and medical devices. We value our team members as the most valuable resources in our organization.",
         "quick_links": "Quick Links",
         "quick_links_routes": [
             { "path": "/home", "name": "Home"},
@@ -15,24 +16,25 @@
             { "path": "/contact_us", "name": "ContactUs"}
         ],
         "social": "Social Links",
-        "copy_right": "All rights reserved - Vision Care © 2023"
+        "copy_right": "All rights reserved - TALENT VISION CARE © 2023"
     },
     "ar":{
-        "title": "Vision Care",
-        "description": "Our vision is to be the leading Saudi company in providing the latest technological solutions and services to support healthcare and catering projects, which contribute to enhancing the concept of quality of life and its sustainability in society and diverse work environments.",
-        "quick_links": "Quick Links",
+        "title": "Talent Vision Care",
+        "description": "نحن شركة رعاية الصحة السعودية، متخصصون في أجهزة العيون الطبية والمستلزمات الاستهلاكية، بالإضافة إلى المنتجات العناية بالبشرة والمكملات الغذائية. بفروع في الرياض والدمام وجدة، قمنا بترسيخ أنفسنا كشركة ذات سمعة طيبة تغطي جميع الأراضي في المملكة العربية السعودية.",
+        "goal": "هدفنا هو توسيع نطاقنا وتغطية منطقة الشرق الأوسط وشمال إفريقيا بحلول نهاية عام 2028. يتكون فريقنا من محترفين ذوي خبرة تزيد عن 50 عامًا في صناعة الأدوية والأجهزة الطبية. نقدر أعضاء فريقنا كأثمن الموارد في منظمتنا.",
+        "quick_links": "روابط سريعة",
         "quick_links_routes": [
-            { "path": "/home", "name": "Home"},
-            { "path": "/about", "name": "About"},
-            { "path": "/work_scope", "name": "Work Scope"},
-            { "path": "/development", "name": "Sustainable Development"},
-            { "path": "/media_center", "name": "Media Center"},
-            { "path": "/relations", "name": "Investor Relations"},
-            { "path": "/ipo", "name": "Ipo"},
-            { "path": "/recruitment", "name": "Recruitment"},
-            { "path": "/contact_us", "name": "ContactUs"}
+          { "path": "/home", "name": "الرئيسية" },
+          { "path": "/about", "name": "من  نحن" },
+          { "path": "/work_scope", "name": "نطاق الأعمال" },
+          { "path": "/development", "name": "التنمية المستدامة" },
+          { "path": "/media_center", "name": "المركز الإعلامي" },
+          { "path": "/relations", "name": "علاقات المستثمرين" },
+          { "path": "/ipo", "name": "الإكتتاب" },
+          { "path": "/recruitment", "name": "التوظيف" },
+          { "path": "/contact_us", "name": "اتصل بنا" }
         ],
-        "social": "Social Links",
-        "copy_right": "All rights reserved - Vision Care © 2023"
-    }
+        "social": "روابط التواصل الاجتماعي",
+        "copy_right": "جميع الحقوق محفوظة - TALENT VISION CARE © 2023"
+    }      
 }

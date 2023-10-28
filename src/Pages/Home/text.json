@@ -1,30 +1,60 @@
 {
     "en":{
         "description": "The leading Saudi company in providing the latest healthcare services, medical and non-medical operation and maintenance",
+        "services": "PROFESSIONAL SERVICES & SOLUTIONS",
         "work_scope": "Work Scope",
-        "work_scope_arr":[
-            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
-            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
-            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
-            {"title": "medical operation Sector", "icon": "fa-solid fa-pump-medical"},
-            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"},
-            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"},
-            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"},
-            {"title": "medical operation Sector", "icon": "fa-solid fa-truck-medical"}
-        ]
+        "work_scope_description": "We are working to provide a range of advanced professional services and solutions according to the highest standards of quality, workmanship and safety, to all our customers in each of the sectors",
+        "consumables": "For Consumables, we have the following items:",
+        "consumables_arr":[
+            {"title": "Surgical Knives", "icon": "fa-solid fa-pump-medical"},
+            {"title": "IOLs (Intra Ocular lenses)", "icon": "fa-solid fa-syringe"},
+            {"title": "Ultra Plug", "icon": "fa-solid fa-briefcase-medical"},
+            {"title": "Glaucoma MIGS & Shunts", "icon": "fa-solid fa-file-medical-alt"},
+            {"title": "Sutures", "icon": "fa-solid fa-truck-medical"},
+            {"title": "OVD (Ophthalmic Viscoelastic)", "icon": "fa-solid fa-hand-holding-medical"},
+            {"title": "Instruments", "icon": "fa-solid fa-x-ray"},
+            {"title": "medical operation Sector", "icon": "fa-solid fa-thermometer"}
+        ],
+        "devices": "For the Devices:",
+        "devices_arr":[
+            {"title": "Phaco & Vitrectomy Machines", "icon": "fa-solid fa-pump-medical"},
+            {"title": "Photocoagulation Laser", "icon": "fa-solid fa-syringe"},
+            {"title": "Photodisruption YAG Lasers", "icon": "fa-solid fa-briefcase-medical"},
+            {"title": "Diagnostic Ultrasound", "icon": "fa-solid fa-file-medical-alt"},
+            {"title": "Diagnostic Machines", "icon": "fa-solid fa-hand-holding-medical"},
+            {"title": "Units", "icon": "fa-solid fa-thermometer"}
+        ],
+        "company_brief": "The company in brief",
+        "company_brief_title": "To be the leading saudi company in providing the latest healthcare services, medical and non-medical operation and maintenance",
+        "company_brief_description": "Based on the successes achieved by the founder Sheikh / Saud Muhammad Nasser Al-Arifi, by launching the House of Medical and Scientific Equipment as a sole proprietorship in 1979 in the city of Riyadh, his project was transformed into a limited liability company in 2000 with a capital of 20 million Saudis, and then into a company Closed shareholding on 2016 with a gradual ascending capital increase to currently amounting to 200 million Saudi riyals. The company has achieved many major achievements, consolidating its leadership position in the Saudi market, based on an ambitious strategic vision, through which it seeks to provide a wide range of quality solutions and services according to the highest standards of efficiency, quality and proficiency."
     },
     "ar":{
-        "description": "الشركة السعودية الرائدة في تقديم أحدث خدمات الرعاية الصحية والتشغيل والصيانة الطبية وغير الطبية",
-        "work_scope": "نطاق الأعمال",
-        "work_scope_arr":[
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-pump-medical"},
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"},
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"},
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"},
-            {"title": "نطاق العمليات الطبية", "icon": "fa-solid fa-truck-medical"}
-        ]        
+        "description": "الشركة السعودية الرائدة في تقديم أحدث خدمات الرعاية الصحية، والعمليات والصيانة الطبية وغير الطبية",
+        "services": "خدمات وحلول محترفة",
+        "work_scope": "نطاق العمل",
+        "work_scope_description": "نعمل على توفير مجموعة من الخدمات المهنية المتقدمة والحلول وفقًا لأعلى معايير الجودة والحرفية والسلامة لجميع عملائنا في كل من القطاعات",
+        "consumables": "بالنسبة للمواد الاستهلاكية، لدينا العناصر التالية:",
+        "consumables_arr": [
+            {"title": "سكاكين جراحية", "icon": "fa-solid fa-pump-medical"},
+            {"title": "عدسات داخل العين (IOLs)", "icon": "fa-solid fa-syringe"},
+            {"title": "أقراص ممتازة", "icon": "fa-solid fa-briefcase-medical"},
+            {"title": "جراحة الزرق (MIGS) والأنابيب", "icon": "fa-solid fa-file-medical-alt"},
+            {"title": "خياطة الجراحة", "icon": "fa-solid fa-truck-medical"},
+            {"title": "سائل مشاهدة داخل العين (OVD)", "icon": "fa-solid fa-hand-holding-medical"},
+            {"title": "أدوات", "icon": "fa-solid fa-x-ray"},
+            {"title": "قطاع العمليات الطبية", "icon": "fa-solid fa-thermometer"}
+        ],
+        "devices": "بالنسبة للأجهزة:",
+        "devices_arr": [
+            {"title": "أجهزة فاكو وفيتركتومي", "icon": "fa-solid fa-pump-medical"},
+            {"title": "ليزر التصبغ", "icon": "fa-solid fa-syringe"},
+            {"title": "أجهزة ليزر الفوتوديسروبشن YAG", "icon": "fa-solid fa-briefcase-medical"},
+            {"title": "الموجات فوق الصوتية التشخيصية", "icon": "fa-solid fa-file-medical-alt"},
+            {"title": "أجهزة التشخيص", "icon": "fa-solid fa-hand-holding-medical"},
+            {"title": "وحدات", "icon": "fa-solid fa-thermometer"}
+        ],
+        "company_brief": "الشركة بإيجاز",
+        "company_brief_title": "أن نكون الشركة السعودية الرائدة في تقديم أحدث خدمات الرعاية الصحية، والعمليات والصيانة الطبية وغير الطبية.",
+        "company_brief_description": "استنادًا إلى النجاحات التي حققها المؤسس الشيخ / سعود محمد ناصر العريفي، من خلال إطلاق بيت الأجهزة الطبية والعلمية كمؤسسة فردية في عام 1979 في مدينة الرياض، تحول مشروعه إلى شركة ذات مسؤولية محدودة في عام 2000 برأسمال قدره 20 مليون ريال سعودي، ثم تحول إلى شركة مساهمة مغلقة في عام 2016 بزيادة تدريجية في رأس المال تصل حاليًا إلى 200 مليون ريال سعودي. حققت الشركة العديد من الإنجازات الكبيرة، مما زاد من مكانتها الريادية في السوق السعودي، استنادًا إلى رؤية استراتيجية طموحة تسعى من خلالها إلى تقديم مجموعة واسعة من الحلول والخدمات عالية الجودة وفقًا لأعلى معايير الكفاءة والجودة والاحتراف."
     }
 }

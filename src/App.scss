@@ -43,6 +43,13 @@ html[dir="rtl"] body{
 .App{
   font-family: 'Roboto-Regular';
   .vision_content{
-    padding-top: 88px;
+    padding-top: 130px;
+  }
+}
+@media (max-width: 991px) {
+  .App{
+    .vision_content{
+      padding-top: 110px;
+    }
   }
 }

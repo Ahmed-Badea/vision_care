@@ -10,7 +10,7 @@ import {
   Button
 } from 'reactstrap';
 import { dependencies } from '../../Tools/dependencies';
-import Logo from '../../assets/images/vision_care_logo.png'
+import Logo from '../../assets/images/vision_care.png'
 import text from './text.json'
 import './Header.scss'
 
@@ -49,7 +49,7 @@ function Header(args) {
     <div className='vision_header'>
       <Navbar {...args} fixed='top' expand='lg'>
         <NavbarBrand href="/">
-          <img className='logo' src={Logo} alt='Vision Care' />
+          <img className='logo' src={Logo} alt='TALENT VISION CARE' />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

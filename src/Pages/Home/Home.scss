@@ -31,11 +31,12 @@
 
 .home_container {
   overflow: hidden;
+  // Header
   .header {
     position: relative;
-    background: url("../../assets/images/home_background.jpg") no-repeat center
-      center;
+    background: url("../../assets/images/home.jpg") no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -45,42 +46,90 @@
     color: #fff;
 
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
     }
 
     p {
-      font-family: "Roboto-Bold";
+      font-family: "Roboto-Light";
       position: absolute;
       top: 30vh;
       z-index: 2;
       color: #fff;
-      font-size: 40px;
-      font-weight: bold;
+      font-size: 45px;
       text-align: center;
-      padding: 0 200px;
+      max-width: 750px;
       text-transform: uppercase;
+      &.slide-in {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+      }
+  
+      &.slide-in.active {
+        opacity: 1;
+        transform: translateY(0) !important;
+        -webkit-transform: translateY(0) !important;
+        -moz-transform: translateY(0) !important;
+        -ms-transform: translateY(0) !important;
+        -o-transform: translateY(0) !important;
+      }
     }
   }
+  // Work Scope
   .work_scope {
-    color: #1d2641;
+    color: #FFF;
     padding: 100px 0;
+    background-image: url(./../../assets//images/feature.png);
+    background-size: cover;
+    h6{
+      position: relative;
+      display: inline-block;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+      &:before {
+        position: absolute;
+        bottom: 3px;
+        left: 0;
+        right: 0;
+        content: "";
+        height: 1px;
+        background-color: #02ccff;
+      }
+    }
     h2 {
       font-family: "Roboto-Bold";
-      margin-bottom: 50px;
+      text-transform: uppercase;
+      margin-bottom: 70px;
+    }
+    h3 {
+      font-family: "Roboto-Light";
+      margin-bottom: 20px;
+    }
+    hr{
+      margin: 50px auto;
+      border: 1px solid #0368B0;
+      width: 70%;
     }
     .scope {
       font-family: "Roboto-Light";
       display: flex;
-      justify-content: center;
       align-items: center;
-      color: #1d2641;
-      border: 2px solid #1d2641;
+      color: #FFF;
+      border: 2px solid #FFF;
       border-radius: 10px;
       padding: 20px;
       margin-bottom: 20px;
@@ -97,16 +146,17 @@
         -moz-transform: scale(1.1);
         -ms-transform: scale(1.1);
         -o-transform: scale(1.1);
-        background-color: #1d2641;
-        color: #fff;
+        color: #02B3EC;
+        border: 2px solid #02B3EC;
       }
       i {
         font-size: 75px;
+        color: #02B3EC;
         @include en {
-          margin-right: 10px;
+          margin-right: 15px;
         }
         @include ar {
-          margin-left: 10px;
+          margin-left: 15px;
         }
       }
       p {
@@ -115,35 +165,36 @@
       }
     }
   }
+  // Company Brief
   .company_brief {
-    position: relative;
-    background: url("../../assets/images/auris_health.webp") no-repeat center center;
-    background-size: cover;
-    color: #fff;
+    color: #04035F;
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
     .brief {
-        background: rgba(0, 0, 0, 0.5);
-        padding: 40px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 600px;
-        text-align: center;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    span{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
+      height: 100%;
+      span{
+        font-family: "Roboto-Bold";
         font-size: 16px;
         color: #0678d6;
+        text-align: center;
+        text-transform: uppercase;
       }
       h3 {
         font-size: 28px;
         margin: 20px 0;
+        text-align: center;
       }
       h5 {
         font-size: 16px;
+        text-align: justify;
       }
     }
   }
@@ -152,7 +203,7 @@
   .home_container {
     .header {
       p {
-        font-size: 20px;
+        font-size: 25px;
         padding: 0 20px;
       }
     }
@@ -163,17 +214,10 @@
       display: block;
       padding: 0 15px 20px;
       img {
-        display: block;
         width: 100%;
-        margin: 0 auto 40px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
       }
       .brief {
-        padding: 0;
+        padding: 40px 0;
         h3 {
           margin: 20px 0;
         }

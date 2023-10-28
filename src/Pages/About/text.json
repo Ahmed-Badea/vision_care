@@ -1,9 +1,48 @@
 {
     "en":{
-        "home": "About"
+        "company_profile": "Company profile",
+        "description": "We are Saudi Healthcare Company, specializing in Ophthalmic Medical Devices and Consumables, as well as cosmeceuticals and  nutraceutical products. With locations in Riyadh, Dammam, and Jeddah, we have established ourselves as a reputable company covering all territories in the Kingdom of Saudi Arabia.",
+        "goal": "Our goal is to expand our reach and cover the MENA region (Middle East and North Africa) by the end of 2028. Our team consists of experienced professionals with over 50 years of cumulative experience in the pharmaceutical industry and medical devices. We value our team members as the most valuable resources in our organization.",
+        "philosophy ": "In dealing with our team, our philosophy is driven by respect, trust, and continuous improvement from the managerial levels. We expect our team members to be accountable and committed to our customers and our company.",
+        "products": "We carefully select our products and services, taking our sense of responsibility towards the community and customers into consideration. Providing high-quality products at affordable and competitive prices to support the health improvement process in our region is our priority.",
+        "strategy": "We believe that our role is not just about promoting and selling products, but rather providing value to our customers. Our strategic focus lies in building long-term relationships with our customers, as this will have a positive impact on patient health.",
+        "commitment_description": "At Talent Vision Care Co., we are committed to satisfying our customers' needs and providing them with the service they deserve. We strive to go above and beyond to exceed their expectations.",
+        "missoin": "Mission",
+        "mission_description": "Based on our social responsibilities towards Health care in Gulf region  , We are Saudi  Health care Company  ,committed to supply and promote high standard quality of consumables , Medical devices specialized in Ophthalmology sector,  besides, Human Natural products with high safety profile and competitive prices to improve the quality of life for our patients.",
+        "vision": "Vision",
+        "vision_description": "To be one of the top 10  leading companies in Medical devices sector within 7 years.",
+        "values": "Values",
+        "values_description": [
+            "Respect",
+            "Trust",
+            "Team work",
+            "Agility",
+            "Continuous improvement",
+            "Accountability",
+            "Commitment"
+        ]
     },
     "ar":{
-        "home": "من نحن"
-        
+        "company_profile": "ملف الشركة",
+        "description": "نحن شركة صحية سعودية، متخصصة في الأجهزة الطبية ومستلزمات العيون، بالإضافة إلى منتجات العناية بالبشرة والمكملات الغذائية. بفروع في الرياض والدمام وجدة، لقد قمنا بتأسيس أنفسنا كشركة ذات سمعة طيبة تغطي جميع مناطق المملكة العربية السعودية.",
+        "goal": "هدفنا هو توسيع نطاقنا لنغطي منطقة الشرق الأوسط وشمال إفريقيا بحلول عام 2028. فريقنا يتكون من محترفين ذوي خبرة تزيد عن 50 عامًا في صناعة الأدوية والأجهزة الطبية. نحن نقدر فريق العمل كأثمن مورد في منظمتنا.",
+        "philosophy": "فلسفتنا في التعامل مع فريق العمل تعتمد على الاحترام والثقة والتحسين المستمر من مستويات الإدارة. نحن نتوقع من أعضاء فريقنا أن يكونوا مسؤولين وملتزمين تجاه عملائنا وشركتنا.",
+        "products": "نقوم باختيار منتجاتنا وخدماتنا بعناية، مع مراعاة مسؤوليتنا نحو المجتمع والعملاء. توفير منتجات عالية الجودة بأسعار معقولة وتنافسية لدعم عملية تحسين الصحة في منطقتنا هو أولويتنا.",
+        "strategy": "نحن نعتقد أن دورنا ليس مجرد الترويج وبيع المنتجات، بل تقديم قيمة لعملائنا. تركز استراتيجيتنا على بناء علاقات طويلة الأمد مع عملائنا، حيث ستكون لهذا تأثير إيجابي على صحة المرضى.",
+        "commitment_description": "في شركة تالنت فيجن كير، نحن ملتزمون بتلبية احتياجات عملائنا وتقديم الخدمة التي يستحقونها. نحن نسعى لتجاوز توقعاتهم.",
+        "missoin": "الرسالة",
+        "mission_description": "استنادًا إلى مسؤولياتنا الاجتماعية تجاه الرعاية الصحية في منطقة الخليج، نحن شركة رعاية صحية سعودية، ملتزمون بتوفير وتعزيز جودة عالية من المستلزمات الاستهلاكية والأجهزة الطبية المتخصصة في قطاع العيون، بالإضافة إلى منتجات طبيعية آمنة للإنسان بملف آمان عالي وأسعار تنافسية لتحسين جودة حياة مرضانا.",
+        "vision": "الرؤية",
+        "vision_description": "أن نكون واحدة من أفضل 10 شركات رائدة في قطاع الأجهزة الطبية خلال 7 سنوات.",
+        "values": "القيم",
+        "values_description": [
+            "الاحترام",
+            "الثقة",
+            "العمل الجماعي",
+            "الرشاقة",
+            "التحسين المستمر",
+            "المساءلة",
+            "الالتزام"
+        ]
     }
 }

@@ -11,7 +11,7 @@
             {"name": "Recruitment", "path": "/recruitment"},
             {"name": "Contact US", "path": "/contact_us"}
         ],
-        "lang": "ع"
+        "lang": "AR"
     },
     "ar":{
         "nav_links": [
