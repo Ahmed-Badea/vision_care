@@ -22,6 +22,7 @@ function Home() {
 
   const renderBody = () => (
     <div className='home_container'>
+      {/* Header */}
       <div className='header'>
         <div className='overlay'></div>
         <p className={`slide-in ${show ? 'active' : ''}`}>{Text.description}</p>
@@ -82,6 +83,7 @@ function Home() {
             </Col>
         </Row>
       </div>
+      {/* Contact US */}
       <div className='contact_us'>
         <Container>
           <div className='contact_us_conatiner'>
