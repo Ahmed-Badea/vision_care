@@ -8,7 +8,7 @@ function MediaCenter() {
   const Text = text[currentLang];
 
   return (
-    <div>
+    <div style={{"height": "500px", "textAlign": "center", "lineHeight": "500px", "fontSize": "30px"}}>
       {Text.home}
     </div>
   )
