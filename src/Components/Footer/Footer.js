@@ -43,7 +43,7 @@ const Footer = () => {
               <img className='logo' src={Logo} alt="TALENT VISION CARE" />
             </div>
           </Col>
-          <Col md={4}>
+          <Col md={4} className='routes'>
             <h4>{Text.quick_links}</h4>
             {Text.quick_links_routes.map((route) => (
               <a key={route.path} href={route.path}>{route.name}</a>
