@@ -47,15 +47,15 @@ function Home() {
   const renderBody = () => (
     <div className='home_container'>
       {/* Header */}
-      <div className='header'>
+      <section className='header'>
         <div className='overlay'></div>
         <p className={`slide-in ${show ? 'active' : ''}`}>{Text.description}</p>
-        <div className="arrow_down" onClick={()=>scrollToWorkScope(-140)}>
+        <div className={`arrow_down slide-in ${show ? 'active' : ''}`} onClick={()=>scrollToWorkScope(-140)}>
           <i className="fas fa-angle-double-down fa-2x"></i>
         </div>
-      </div>
+      </section>
       {/* Work Scope */}
-      <div className='work_scope' id="work_scope">
+      <section className='work_scope' id="work_scope">
         <Container>
           <Row>
             <Col lg={6}>
@@ -156,9 +156,9 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </section>
       {/* Company Brief */}
-      <div className='company_brief'>
+      <section className='company_brief'>
         <Row>
             <Col lg={6}>
               <img src={CompanyBriefImage} alt="Medical Background" />
@@ -173,9 +173,9 @@ function Home() {
               </div>
             </Col>
         </Row>
-      </div>
+      </section>
       {/* Contact US */}
-      <div className='contact_us'>
+      <section className='contact_us'>
         <Container>
           <div className='contact_us_conatiner'>
             <Row>
@@ -189,7 +189,7 @@ function Home() {
             </Row>
           </div>
         </Container>
-      </div>
+      </section>
     </div>
   )
 

@@ -53,7 +53,7 @@ function Header(args) {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
+          <Nav className="m-auto" navbar>
             {Text.nav_links.map((ele, index) => (
               <NavItem key={index} >
                 <NavLink className={window.location.pathname === ele.path ? "active" : ""} href={ele.path}>{ele.name}</NavLink>

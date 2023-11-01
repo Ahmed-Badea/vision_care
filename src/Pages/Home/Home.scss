@@ -113,6 +113,26 @@
       bottom: 100px;
       font-size: 50px;
       z-index: 2;
+      
+      &.slide-in {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+      }
+  
+      &.slide-in.active {
+        opacity: 1;
+        transform: translateY(0) !important;
+        -webkit-transform: translateY(0) !important;
+        -moz-transform: translateY(0) !important;
+        -ms-transform: translateY(0) !important;
+        -o-transform: translateY(0) !important;
+      }
+
       i{
         cursor: pointer;
         animation: bouncing 1.5s infinite;
@@ -293,7 +313,7 @@
     .header {
       height: calc(100vh - 110px);
       p {
-        top: 30vh;
+        top: 25vh;
         font-size: 25px;
         padding: 0 20px;
       }
