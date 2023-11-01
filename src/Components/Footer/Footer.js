@@ -28,7 +28,7 @@ const Footer = () => {
             <div className='contact_info'>
               <p>
                 <i class="fa fa-map-marker-alt"></i> 
-                Saudi Arabia, Riyadh
+                {Text.location}
               </p>
               <a href="tel:+966 (11)4646699">
                 <i class="fa fa-phone"></i>

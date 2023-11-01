@@ -16,6 +16,7 @@
             { "path": "/contact_us", "name": "ContactUs"}
         ],
         "social": "Social Links",
+        "location": "Saudi Arabia, Riyadh",
         "copy_right": "All rights reserved - TALENT VISION CARE © 2023"
     },
     "ar":{
@@ -35,6 +36,7 @@
           { "path": "/contact_us", "name": "اتصل بنا" }
         ],
         "social": "روابط التواصل الاجتماعي",
+        "location": "المملكة العربية السعودية، الرياض",
         "copy_right": "جميع الحقوق محفوظة - TALENT VISION CARE © 2023"
     }      
 }
