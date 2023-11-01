@@ -35,15 +35,27 @@ function Home() {
     return () => clearTimeout(timeout);
   }, []);
 
+  const scrollToWorkScope = (offset) => {
+    const workScopeElement = document.getElementById('work_scope');
+    const offsetTop = workScopeElement.offsetTop + offset;
+    window.scrollTo({
+      top: offsetTop,
+      behavior: 'smooth' // For smooth scrolling, you can remove this if not needed.
+    });
+  }
+
   const renderBody = () => (
     <div className='home_container'>
       {/* Header */}
       <div className='header'>
         <div className='overlay'></div>
         <p className={`slide-in ${show ? 'active' : ''}`}>{Text.description}</p>
+        <div className="arrow_down" onClick={()=>scrollToWorkScope(-140)}>
+          <i className="fas fa-angle-double-down fa-2x"></i>
+        </div>
       </div>
       {/* Work Scope */}
-      <div className='work_scope'>
+      <div className='work_scope' id="work_scope">
         <Container>
           <Row>
             <Col lg={6}>

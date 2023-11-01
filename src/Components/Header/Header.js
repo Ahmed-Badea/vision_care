@@ -54,8 +54,8 @@ function Header(args) {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
-            {Text.nav_links.map(ele => (
-              <NavItem>
+            {Text.nav_links.map((ele, index) => (
+              <NavItem key={index} >
                 <NavLink className={window.location.pathname === ele.path ? "active" : ""} href={ele.path}>{ele.name}</NavLink>
               </NavItem>
             ))}
@@ -63,7 +63,7 @@ function Header(args) {
           <div className="lang_btn_container">
             <Button className='lang_btn' onClick={()=>handleLangChange("en")}>
               {Text.lang}
-              <i class="fa-solid fa-globe"></i>
+              <i className="fa-solid fa-globe"></i>
             </Button>
           </div>
         </Collapse>

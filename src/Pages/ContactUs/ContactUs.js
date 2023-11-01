@@ -27,7 +27,7 @@ function ContactUs() {
             <div className='box'>
               <p>
                 <div className='icon'>
-                  <i class="fa fa-map-marker-alt"></i> 
+                  <i className="fa fa-map-marker-alt"></i> 
                 </div>
                 {Text.address}
                 <span>{Text.location}</span>
@@ -36,22 +36,22 @@ function ContactUs() {
           </Col>
           <Col lg={4}>
             <div className='box'>
+              <div className='icon'>
+                <i className="fa fa-phone"></i> 
+              </div>
+              <p>{Text.phone}</p>
               <a href="tel:+966 (11)4646699">
-                <div className='icon'>
-                  <i class="fa fa-phone"></i> 
-                </div>
-                {Text.phone}
                 <span>+966 (11)4646699</span>
               </a>
             </div>
           </Col>
           <Col lg={4}>
             <div className='box'>
+              <div className='icon'>
+                <i className="fa fa-envelope"></i> 
+              </div>
+              <p>{Text.email}</p>
               <a href="mailto:smeh@smeh.com.sa">
-                <div className='icon'>
-                  <i class="fa fa-envelope"></i> 
-                </div>
-                {Text.email}
                 <span>smeh@smeh.com.sa</span>
               </a>
             </div>

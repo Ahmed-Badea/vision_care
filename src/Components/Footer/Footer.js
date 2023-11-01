@@ -21,21 +21,21 @@ const Footer = () => {
           </Col>
           <Col md={4} className='social_links'>
             <h4>{Text.social}</h4>
-            <a href='/'><i class="fa-brands fa-facebook-f"></i></a>
-            <a href='/'><i class="fa-brands fa-instagram"></i></a>
-            <a href='/'><i class="fa-brands fa-x-twitter"></i></a>
-            <a href='/'><i class="fa-brands fa-youtube"></i></a>
+            <a href='/'><i className="fa-brands fa-facebook-f"></i></a>
+            <a href='/'><i className="fa-brands fa-instagram"></i></a>
+            <a href='/'><i className="fa-brands fa-x-twitter"></i></a>
+            <a href='/'><i className="fa-brands fa-youtube"></i></a>
             <div className='contact_info'>
               <p>
-                <i class="fa fa-map-marker-alt"></i> 
+                <i className="fa fa-map-marker-alt"></i> 
                 {Text.location}
               </p>
               <a href="tel:+966 (11)4646699">
-                <i class="fa fa-phone"></i>
+                <i className="fa fa-phone"></i>
                 +966 (11)4646699 
               </a>
               <a href="mailto:smeh@smeh.com.sa">
-                <i class="fa fa-envelope"></i>
+                <i className="fa fa-envelope"></i>
                 smeh@smeh.com.sa
               </a>
             </div>

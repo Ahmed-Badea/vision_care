@@ -33,6 +33,21 @@
 //     font-family: sans-serif;
 // }
 
+@keyframes bouncing {
+  0%,
+  10%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40%,
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .home_container {
   overflow: hidden;
   // Header
@@ -89,6 +104,18 @@
         -moz-transform: translateY(0) !important;
         -ms-transform: translateY(0) !important;
         -o-transform: translateY(0) !important;
+      }
+    }
+
+    .arrow_down{
+      color: #02ccff;
+      position: absolute;
+      bottom: 100px;
+      font-size: 50px;
+      z-index: 2;
+      i{
+        cursor: pointer;
+        animation: bouncing 1.5s infinite;
       }
     }
   }
