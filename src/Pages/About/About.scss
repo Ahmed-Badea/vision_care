@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Roboto-Light";
-  src: url("./../../assets//fonts/Roboto/Roboto-Light.ttf") format("opentype");
+  font-family: "Roboto-Regular";
+  src: url("./../../assets//fonts/Roboto/Roboto-Regular.ttf") format("opentype");
 }
 
 @font-face {
@@ -78,7 +78,7 @@
 
   .accordion-button {
     font-family: "Roboto-Bold";
-    font-size: 20px;
+    font-size: 24px;
     color: #144C77;
     border-left: 4px Solid #FFF;
     transition: all ease-in-out .3s;
@@ -122,9 +122,9 @@
   }
 
   p {
-    font-family: "Roboto-Light";
-    font-size: 18px;
-    color: #096EC0;
+    font-family: "Roboto-Regular";
+    font-size: 20px;
+    color: #144C77;
     text-align: justify;
     margin-bottom: 0;
 
@@ -134,14 +134,16 @@
   }
 
   li {
-    font-family: "Roboto-Light";
+    font-family: "Roboto-Regular";
     font-size: 18px;
     color: #096EC0;
     margin-bottom: 5px;
   }
 
   img {
-    margin-top: -120px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
     max-width: 100%;
     transition: transform 0.3s;
 
@@ -180,9 +182,8 @@
 @media (max-width: 767px) {
   .about_container {
     padding: 50px 0 0;
-
     img {
-      margin-top: 0;
+      margin: 50px auto;
     }
   }
 }

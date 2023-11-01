@@ -2,6 +2,21 @@ import React, { useState, useEffect } from 'react'
 import { Row, Col, Container } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
 import CompanyBriefImage from '../../assets/images/company_brief.png'
+// Consumables Icons
+import KnivesIcon from '../../assets/images/consumables/01.png'
+import IOLsIcon from '../../assets/images/consumables/02.png'
+import UltraIcon from '../../assets/images/consumables/03.png'
+import GlaucomaIcon from '../../assets/images/consumables/04.png'
+import SuturesIcon from '../../assets/images/consumables/05.png'
+import OVDIcon from '../../assets/images/consumables/06.png'
+import InstrumentsIcon from '../../assets/images/consumables/07.png'
+// Devices Icons
+import PhacoIcon from '../../assets/images/devices/01.png'
+import LaserIcon from '../../assets/images/devices/02.png'
+import YAGLaserIcon from '../../assets/images/devices/03.png'
+import UltrasoundIcon from '../../assets/images/devices/04.png'
+import MachinesIcon from '../../assets/images/devices/05.png'
+import UnitsIcon from '../../assets/images/devices/06.png'
 import text from './text.json'
 import './Home.scss'
 
@@ -41,28 +56,90 @@ function Home() {
             <Col lg={12}>
               <Row>
                 <h3>{Text.consumables}</h3>
-                {Text.consumables_arr.map((ele, index)=>(
-                  <Col lg={3} md={4} sm={12} key={index}>
-                    <a href='/' className='scope'>
-                      <i class={ele.icon}></i>
-                      <p >{ele.title}</p>
-                    </a>
-                  </Col>
-                  ))}
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={KnivesIcon} alt='KnivesIcon' />
+                    <p>{Text.surgical_knives}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={IOLsIcon} alt='IOLsIcon' />
+                    <p>{Text.iols}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={UltraIcon} alt='UltraIcon' />
+                    <p>{Text.ultra_plug}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={GlaucomaIcon} alt='GlaucomaIcon' />
+                    <p>{Text.glaucoma}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={SuturesIcon} alt='SuturesIcon' />
+                    <p>{Text.sutures}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={OVDIcon} alt='OVDIcon' />
+                    <p>{Text.ovd}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={InstrumentsIcon} alt='InstrumentsIcon' />
+                    <p>{Text.instruments}</p>
+                  </div>
+                </Col>
               </Row>
             </Col>
             <hr/>
             <Col lg={12}>
               <Row>
                 <h3>{Text.devices}</h3>
-                {Text.devices_arr.map((ele, index)=>(
-                  <Col lg={3} md={4} sm={12} key={index}>
-                    <a href='/' className='scope'>
-                      <i class={ele.icon}></i>
-                      <p >{ele.title}</p>
-                    </a>
-                  </Col>
-                  ))}
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={PhacoIcon} alt='PhacoIcon' />
+                    <p>{Text.phaco}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={LaserIcon} alt='LaserIcon' />
+                    <p>{Text.laser}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={YAGLaserIcon} alt='YAGLaserIcon' />
+                    <p>{Text.yag}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={UltrasoundIcon} alt='UltrasoundIcon' />
+                    <p>{Text.ultrasound}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={MachinesIcon} alt='MachinesIcon' />
+                    <p>{Text.machines}</p>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12}>
+                  <div className='scope'>
+                    <img src={UnitsIcon} alt='UnitsIcon' />
+                    <p>{Text.units}</p>
+                  </div>
+                </Col>
               </Row>
             </Col>
           </Row>
@@ -78,7 +155,9 @@ function Home() {
               <div className='brief'>
                 <span>{Text.company_brief}</span>
                 <h3>{Text.company_brief_title}</h3>
-                <h5>{Text.company_brief_description}</h5>
+                <h5>{Text.company_brief_description_1}</h5>
+                <h5>{Text.company_brief_description_2}</h5>
+                <h5>{Text.company_brief_description_3}</h5>
               </div>
             </Col>
         </Row>
@@ -88,11 +167,11 @@ function Home() {
         <Container>
           <div className='contact_us_conatiner'>
             <Row>
-              <Col lg={6}>
+              <Col lg={8}>
                 <p>{Text.inquiry}</p>
                 <h4>{Text.contact_us_message}</h4>
               </Col>
-              <Col lg={6}>
+              <Col lg={4}>
                 <a href='/contact_us'>{Text.contact_us}</a>
               </Col>
             </Row>

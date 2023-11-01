@@ -1,8 +1,14 @@
 {
     "en":{
-        "home": "ContactUs"
+        "address": "address",
+        "email": "email address",
+        "phone": "phone number",
+        "location": "Saudi Arabia, Riyadh"
     },
     "ar":{
-        "home": "اتصل بنا"
+        "address": "العنوان",
+        "email": "عنوان البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "location": "المملكة العربية السعودية، الرياض"
     }
 }

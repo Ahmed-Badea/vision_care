@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("./../../assets//fonts/Roboto/Roboto-Bold.ttf") format("opentype");
+}
+.contact_us_container{
+    padding: 150px 0;
+    background-image: url(./../../assets//images/contact_us.png);
+    background-size: cover;
+    .box{
+        background-color: #F6F4F9;
+        font-size: 25px;
+        padding: 50px 0;
+        text-align: center;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        .icon{
+            width: 130px;
+            height: 130px;
+            margin: 0 auto 20px;
+            background-color: #0678D6;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            i{
+                display: block;
+                font-size: 60px;
+                line-height: 130px;
+                color: #FFF;
+            }
+        }
+        p{
+            font-family: "Roboto-Bold";
+            font-size: 30px;
+            color: #0678D6;
+            margin: 0;
+        }
+        a{
+            font-family: "Roboto-Bold";
+            font-size: 30px;
+            text-decoration: none;
+            color: #0678D6;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        span{
+            display: block;
+            font-size: 20px;
+            font-family: "Roboto-Light";
+        }
+    }
+}
+@media (max-width:991px) {
+    .contact_us_container{
+        padding: 100px 0;
+        .box{
+            margin: 25px auto;
+        }
+    }
+}

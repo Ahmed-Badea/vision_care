@@ -25,6 +25,20 @@ const Footer = () => {
             <a href='/'><i class="fa-brands fa-instagram"></i></a>
             <a href='/'><i class="fa-brands fa-x-twitter"></i></a>
             <a href='/'><i class="fa-brands fa-youtube"></i></a>
+            <div className='contact_info'>
+              <p>
+                <i class="fa fa-map-marker-alt"></i> 
+                Saudi Arabia, Riyadh
+              </p>
+              <a href="tel:+966 (11)4646699">
+                <i class="fa fa-phone"></i>
+                +966 (11)4646699 
+              </a>
+              <a href="mailto:smeh@smeh.com.sa">
+                <i class="fa fa-envelope"></i>
+                smeh@smeh.com.sa
+              </a>
+            </div>
             <div>
               <img className='logo' src={Logo} alt="TALENT VISION CARE" />
             </div>
