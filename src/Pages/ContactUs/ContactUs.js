@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect} from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
 import text from './text.json'
@@ -9,10 +9,20 @@ function ContactUs() {
   const currentLang = dependencies.getCurrentLang();
   const Text = text[currentLang];
 
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    // Use a setTimeout to delay the animation
+    const timeout = setTimeout(() => {
+      setShow(true);
+    }, 300); // Adjust the delay as needed
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <div className='contact_us_container'>
       <Container> 
-        <Row>
+        <Row className={`slide-in ${show ? 'active' : ''}`}>
           <Col lg={4}>
             <div className='box'>
               <p>

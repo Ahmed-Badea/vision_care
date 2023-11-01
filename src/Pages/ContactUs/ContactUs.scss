@@ -2,6 +2,22 @@
     font-family: "Roboto-Bold";
     src: url("./../../assets//fonts/Roboto/Roboto-Bold.ttf") format("opentype");
 }
+
+@mixin m($width){
+    @media(max-width:#{$width}px){
+        @content;
+    }
+}
+@mixin en{
+    html[dir="ltr"] & {
+        @content;
+    }
+}
+@mixin ar{
+    html[dir="rtl"] & {
+        @content;
+    }
+}
 .contact_us_container{
     padding: 150px 0;
     background-image: url(./../../assets//images/contact_us.png);
@@ -35,12 +51,14 @@
         }
         p{
             font-family: "Roboto-Bold";
+            text-transform: uppercase;
             font-size: 30px;
             color: #0678D6;
             margin: 0;
         }
         a{
             font-family: "Roboto-Bold";
+            text-transform: uppercase;
             font-size: 30px;
             text-decoration: none;
             color: #0678D6;
@@ -53,6 +71,24 @@
             font-size: 20px;
             font-family: "Roboto-Light";
         }
+    }
+    .slide-in {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+
+    }
+    .slide-in.active {
+        opacity: 1;
+        transform: translateY(0) !important;
+        -webkit-transform: translateY(0) !important;
+        -moz-transform: translateY(0) !important;
+        -ms-transform: translateY(0) !important;
+        -o-transform: translateY(0) !important;
     }
 }
 @media (max-width:991px) {
