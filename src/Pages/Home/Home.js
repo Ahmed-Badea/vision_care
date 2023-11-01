@@ -56,43 +56,43 @@ function Home() {
             <Col lg={12}>
               <Row>
                 <h3>{Text.consumables}</h3>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={KnivesIcon} alt='KnivesIcon' />
                     <p>{Text.surgical_knives}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={IOLsIcon} alt='IOLsIcon' />
                     <p>{Text.iols}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={UltraIcon} alt='UltraIcon' />
                     <p>{Text.ultra_plug}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={GlaucomaIcon} alt='GlaucomaIcon' />
                     <p>{Text.glaucoma}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={SuturesIcon} alt='SuturesIcon' />
                     <p>{Text.sutures}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={OVDIcon} alt='OVDIcon' />
                     <p>{Text.ovd}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={InstrumentsIcon} alt='InstrumentsIcon' />
                     <p>{Text.instruments}</p>
@@ -104,37 +104,37 @@ function Home() {
             <Col lg={12}>
               <Row>
                 <h3>{Text.devices}</h3>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={PhacoIcon} alt='PhacoIcon' />
                     <p>{Text.phaco}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={LaserIcon} alt='LaserIcon' />
                     <p>{Text.laser}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={YAGLaserIcon} alt='YAGLaserIcon' />
                     <p>{Text.yag}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={UltrasoundIcon} alt='UltrasoundIcon' />
                     <p>{Text.ultrasound}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={MachinesIcon} alt='MachinesIcon' />
                     <p>{Text.machines}</p>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={6} sm={12}>
                   <div className='scope'>
                     <img src={UnitsIcon} alt='UnitsIcon' />
                     <p>{Text.units}</p>
