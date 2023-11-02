@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { useIsVisible } from "react-is-visible"
 import { Container, Row, Col } from 'reactstrap';
 import { dependencies } from '../../Tools/dependencies';
 import Logo from './../../assets/images/vision_care.png'
 import text from './text.json';
+import 'animate.css';
 import './Footer.scss';
 
 const Footer = () => {
   
   const currentLang = dependencies.getCurrentLang();
   const Text = text[currentLang];
+
+  const nodeRef = useRef();
+  const isVisible = useIsVisible(nodeRef);
 
   return (
     <footer className="footer">
@@ -40,7 +45,7 @@ const Footer = () => {
               </a>
             </div>
             <div>
-              <img className='logo' src={Logo} alt="TALENT VISION CARE" />
+              <img ref={nodeRef} className={`logo ${isVisible ? "animate__animated animate__bounce" : ""}`} src={Logo} alt="TALENT VISION CARE" />
             </div>
           </Col>
           <Col md={4} className='routes'>

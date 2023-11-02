@@ -18,7 +18,9 @@
         @content;
     }
 }
+
 .contact_us_container{
+    overflow: hidden;
     padding: 150px 0;
     background-image: url(./../../assets//images/contact_us.png);
     background-size: cover;
@@ -37,6 +39,7 @@
             height: 130px;
             margin: 0 auto 20px;
             background-color: #0678D6;
+            border: 1px solid #0678D6;
             border-radius: 50%;
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
@@ -47,6 +50,12 @@
                 font-size: 60px;
                 line-height: 130px;
                 color: #FFF;
+            }
+            &:hover{
+                background-color: #FFF;
+                i{
+                    color: #0678D6;
+                }
             }
         }
         p{
@@ -72,28 +81,8 @@
             font-family: "Roboto-Light";
         }
     }
-    .slide-in {
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-        transform: translateY(-100%);
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        -o-transform: translateY(-100%);
-        -webkit-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-        -moz-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-        -ms-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-        -o-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
-    .slide-in.active {
-        opacity: 1;
-        transform: translateY(0) !important;
-        -webkit-transform: translateY(0) !important;
-        -moz-transform: translateY(0) !important;
-        -ms-transform: translateY(0) !important;
-        -o-transform: translateY(0) !important;
-    }
-}
+// Medium Screen
 @media (max-width:991px) {
     .contact_us_container{
         padding: 100px 0;

@@ -1,7 +1,8 @@
-import React, { useState, useEffect} from 'react'
+import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
 import text from './text.json'
+import 'animate.css';
 import './ContactUs.scss'
 
 function ContactUs() {
@@ -9,22 +10,12 @@ function ContactUs() {
   const currentLang = dependencies.getCurrentLang();
   const Text = text[currentLang];
 
-  const [show, setShow] = useState(false);
-  useEffect(() => {
-    // Use a setTimeout to delay the animation
-    const timeout = setTimeout(() => {
-      setShow(true);
-    }, 300); // Adjust the delay as needed
-
-    return () => clearTimeout(timeout);
-  }, []);
-
   return (
     <div className='contact_us_container'>
       <Container> 
-        <Row className={`slide-in ${show ? 'active' : ''}`}>
+        <Row>
           <Col lg={4}>
-            <div className='box'>
+            <div className='box animate__animated animate__rollIn'>
               <p>
                 <div className='icon'>
                   <i className="fa fa-map-marker-alt"></i> 
@@ -35,7 +26,7 @@ function ContactUs() {
             </div>
           </Col>
           <Col lg={4}>
-            <div className='box'>
+            <div className='box animate__animated animate__rollIn'>
               <div className='icon'>
                 <i className="fa fa-phone"></i> 
               </div>
@@ -46,7 +37,7 @@ function ContactUs() {
             </div>
           </Col>
           <Col lg={4}>
-            <div className='box'>
+            <div className='box animate__animated animate__rollIn'>
               <div className='icon'>
                 <i className="fa fa-envelope"></i> 
               </div>

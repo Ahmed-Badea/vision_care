@@ -15,6 +15,7 @@
     }
 }
 .footer {
+    overflow: hidden;
     background-color: #000;
     color: #ccc;
     padding: 20px 0;
@@ -130,7 +131,7 @@
         text-align: center;
         border-top: 1px solid #FFF;
         padding-top: 20px;
-}
+    }
 }
 // Mobile Screen
 @media (max-width:767px) {

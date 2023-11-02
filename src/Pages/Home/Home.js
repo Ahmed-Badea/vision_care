@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import { useIsVisible } from "react-is-visible"
 import { Row, Col, Container } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
 import CompanyBriefImage from '../../assets/images/company_brief.png'
@@ -42,6 +43,14 @@ function Home() {
       top: offsetTop,
       behavior: 'smooth' // For smooth scrolling, you can remove this if not needed.
     });
+  }
+
+  const nodeRef = useRef();
+  const isVisible = useIsVisible(nodeRef);
+  const [hasAnimated, setHasAnimated] = useState(false);
+  if (isVisible && !hasAnimated) {
+    setHasAnimated(true);
+    nodeRef.current.classList.add('animate__animated', 'animate__zoomInDown', 'animate__delay-.5s');
   }
 
   const renderBody = () => (
@@ -177,7 +186,7 @@ function Home() {
       {/* Contact US */}
       <section className='contact_us'>
         <Container>
-          <div className='contact_us_conatiner'>
+          <div ref={nodeRef} className="contact_us_conatiner">
             <Row>
               <Col lg={8}>
                 <p>{Text.inquiry}</p>
