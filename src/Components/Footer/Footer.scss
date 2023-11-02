@@ -132,12 +132,26 @@
         padding-top: 20px;
 }
 }
+// Mobile Screen
 @media (max-width:767px) {
     .footer{
         text-align: center;
         h4{
             margin: 20px 0;
         }
+        .routes{
+            a{
+                &::before{
+                    display: none;
+                }
+                &:hover{
+                    transform: none !important;
+                    -webkit-transform: none !important;
+                    -moz-transform: none !important;
+                    -ms-transform: none !important;
+                    -o-transform: none !important;
+                }
+            }
+        }
     }
 }
-  
