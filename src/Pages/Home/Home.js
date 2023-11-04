@@ -50,7 +50,7 @@ function Home() {
   const [hasAnimated, setHasAnimated] = useState(false);
   if (isVisible && !hasAnimated) {
     setHasAnimated(true);
-    nodeRef.current.classList.add('animate__animated', 'animate__zoomInDown', 'animate__delay-.5s');
+    nodeRef.current.classList.add('animate__animated', 'animate__zoomInDown');
   }
 
   const renderBody = () => (
@@ -168,34 +168,18 @@ function Home() {
       </section>
       {/* Company Brief */}
       <section className='company_brief'>
-        <Row>
-            <Col lg={6}>
-              <img src={CompanyBriefImage} alt="Medical Background" />
-            </Col>
-            <Col lg={6}>
-              <div className='brief'>
-                <span>{Text.company_brief}</span>
-                <h3>{Text.company_brief_title}</h3>
-                <h5>{Text.company_brief_description_1}</h5>
-                <h5>{Text.company_brief_description_2}</h5>
-                <h5>{Text.company_brief_description_3}</h5>
-              </div>
-            </Col>
-        </Row>
+        <div className='brief'>
+          <h3>{Text.company_brief_title}</h3>
+          <h5>{Text.company_brief_description_1}</h5>
+          <h5>{Text.company_brief_description_2}</h5>
+          <h5>{Text.company_brief_description_3}</h5>
+        </div>
       </section>
       {/* Contact US */}
       <section className='contact_us'>
         <Container>
           <div ref={nodeRef} className="contact_us_conatiner">
-            <Row>
-              <Col lg={8}>
-                <p>{Text.inquiry}</p>
-                <h4>{Text.contact_us_message}</h4>
-              </Col>
-              <Col lg={4}>
-                <a href='/contact_us'>{Text.contact_us}</a>
-              </Col>
-            </Row>
+            <a href='/contact_us'>{Text.contact_us}</a>
           </div>
         </Container>
       </section>

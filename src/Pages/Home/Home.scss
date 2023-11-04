@@ -220,29 +220,31 @@
   }
   // Company Brief
   .company_brief {
-    color: #04035F;
+    position: relative;
+    color: #144C77;
+    &::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #08E4FF;
+      z-index: -1;
+      top: -40px;
+      transform: skewY(-6deg);
+      left: 0;
+      transform-origin: top left;
+    }
     img{
       width: 100%;
       height: 100%;
       max-width: 100%;
     }
     .brief {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       padding: 40px;
-      max-width: 600px;
+      max-width: 850px;
       margin: auto;
-      height: 100%;
-      span{
-        font-family: "Roboto-Bold";
-        font-size: 16px;
-        color: #0678d6;
-        text-align: center;
-        text-transform: uppercase;
-      }
       h3 {
-        font-size: 28px;
+        font-size: 30px;
         margin: 20px 0;
         text-align: left;
         @include ar{
@@ -250,7 +252,7 @@
         }
       }
       h5 {
-        font-size: 16px;
+        font-size: 18px;
         text-align: justify;
       }
     }
