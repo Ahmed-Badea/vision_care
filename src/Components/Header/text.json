@@ -5,9 +5,6 @@
             {"name": "About", "path": "/about"},
             {"name": "Work Scope", "path": "/work_scope"},
             {"name": "Sustainable Development", "path": "/development"},
-            {"name": "Media Center", "path": "/media_center"},
-            {"name": "Investor Relations", "path": "/relations"},
-            {"name": "IPO", "path": "/ipo"},
             {"name": "Recruitment", "path": "/recruitment"},
             {"name": "Contact US", "path": "/contact_us"}
         ],
@@ -19,9 +16,6 @@
             {"name": "من نحن", "path": "/about"},
             {"name": "نطاق الأعمال", "path": "/work_scope"},
             {"name": "التنمية المستدامة", "path": "/development"},
-            {"name": "المركز الإعلامى", "path": "/media_center"},
-            {"name": "علاقات المستثمرين", "path": "/relations"},
-            {"name": "الإكتتاب", "path": "/ipo"},
             {"name": "التوظيف", "path": "/recruitment"},
             {"name": "اتصل بنا", "path": "/contact_us"}
         ],
