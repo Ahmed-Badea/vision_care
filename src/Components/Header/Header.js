@@ -7,7 +7,11 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Button
+  Button,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from 'reactstrap';
 import { dependencies } from '../../Tools/dependencies';
 import Logo from '../../assets/images/vision_care.png'
@@ -55,9 +59,23 @@ function Header(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="m-auto" navbar>
             {Text.nav_links.map((ele, index) => (
-              <NavItem key={index} >
-                <NavLink className={window.location.pathname === ele.path ? "active" : ""} href={ele.path}>{ele.name}</NavLink>
-              </NavItem>
+              ele.drop_down ?
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle nav caret>
+                    {ele.name}
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    {ele.routes.map((item, index) => (
+                      <DropdownItem key={index} href={item.path}>
+                        {item.name}
+                      </DropdownItem>
+                    ))}
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+              :
+                <NavItem key={index} >
+                  <NavLink className={window.location.pathname === ele.path ? "active" : ""} href={ele.path}>{ele.name}</NavLink>
+                </NavItem>
             ))}
           </Nav>
           <div className="lang_btn_container">

@@ -7,7 +7,8 @@
         "quick_links_routes": [
             { "path": "/home", "name": "Home"},
             { "path": "/about", "name": "About"},
-            { "path": "/work_scope", "name": "Work Scope"},
+            { "path": "/consumables", "name": "Consumables"},
+            { "path": "/devices", "name": "Devices"},
             { "path": "/development", "name": "Sustainable Development"},
             { "path": "/recruitment", "name": "Recruitment"},
             { "path": "/contact_us", "name": "ContactUs"}
@@ -22,12 +23,13 @@
         "goal": "هدفنا هو توسيع نطاقنا وتغطية منطقة الشرق الأوسط وشمال إفريقيا بحلول نهاية عام 2028. يتكون فريقنا من محترفين ذوي خبرة تزيد عن 50 عامًا في صناعة الأدوية والأجهزة الطبية. نقدر أعضاء فريقنا كأثمن الموارد في منظمتنا.",
         "quick_links": "روابط سريعة",
         "quick_links_routes": [
-          { "path": "/home", "name": "الرئيسية" },
-          { "path": "/about", "name": "من  نحن" },
-          { "path": "/work_scope", "name": "نطاق الأعمال" },
-          { "path": "/development", "name": "التنمية المستدامة" },
-          { "path": "/recruitment", "name": "التوظيف" },
-          { "path": "/contact_us", "name": "اتصل بنا" }
+            { "path": "/home", "name": "الرئيسية" },
+            { "path": "/about", "name": "من  نحن" },
+            { "path": "/consumables", "name": "المواد الاستهلاكية"},
+            { "path": "/devices", "name": "الأجهزة"},
+            { "path": "/development", "name": "التنمية المستدامة" },
+            { "path": "/recruitment", "name": "التوظيف" },
+            { "path": "/contact_us", "name": "اتصل بنا" }
         ],
         "social": "روابط التواصل الاجتماعي",
         "location": "المملكة العربية السعودية، الرياض",

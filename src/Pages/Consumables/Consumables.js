@@ -2,7 +2,7 @@ import React from 'react'
 import {dependencies} from '../../Tools/dependencies'
 import text from './text.json'
 
-function WorkScope() {
+function Consumables() {
 
   const currentLang = dependencies.getCurrentLang();
   const Text = text[currentLang];
@@ -14,4 +14,4 @@ function WorkScope() {
   )
 }
 
-export default WorkScope
+export default Consumables
