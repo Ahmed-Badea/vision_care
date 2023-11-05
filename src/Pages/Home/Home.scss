@@ -50,8 +50,8 @@
 
 .home_container {
   overflow: hidden;
-  // Header
-  .header {
+  // Landing
+  .landing {
     position: relative;
     background: url("../../assets/images/home.jpg") no-repeat center center;
     background-size: cover;
@@ -306,7 +306,8 @@
 }
 @media (max-width: 991px) {
   .home_container {
-    .header {
+    // Landing
+    .landing {
       height: calc(100vh - 110px);
       p {
         top: 25vh;

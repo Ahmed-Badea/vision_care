@@ -55,8 +55,8 @@ function Home() {
 
   const renderBody = () => (
     <div className='home_container'>
-      {/* Header */}
-      <section className='header'>
+      {/* Landing */}
+      <section className='landing'>
         <div className='overlay'></div>
         <p className={`slide-in ${show ? 'active' : ''}`}>{Text.description}</p>
         <div className={`arrow_down slide-in ${show ? 'active' : ''}`} onClick={()=>scrollToWorkScope(-140)}>

@@ -121,6 +121,7 @@
         }
     }
 }
+// Language Modal
 .modal{
     text-align: center;
     .modal-title{
@@ -164,14 +165,29 @@
 @media (max-width: 998px) {
     .vision_header{
         .navbar{
+            .container-fluid{
+                display: block;
+                position: relative;
+            }
             .navbar-brand{
                 margin: 0 !important;
                 .logo{
-                    width: 100px;
+                    width: 130px;
                 }
+            }
+            .navbar-collapse{
+                margin-top: 20px;
             }
             .nav-item a{
                 margin: 0;
+            }
+            .navbar-toggler{
+                position: absolute;
+                top: 30px;
+                right: 0;
+                @include ar{
+                    // float: left;
+                }
             }
         }
         .lang_btn_container{
