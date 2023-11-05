@@ -1,14 +1,38 @@
 {
-    "en":{
-        "address": "address",
-        "email": "email address",
-        "phone": "phone number",
-        "location": "Saudi Arabia, Riyadh"
+    "en": {
+      "address": "address",
+      "email": "email address",
+      "phone": "phone number",
+      "location": "Saudi Arabia, Riyadh"
     },
-    "ar":{
-        "address": "العنوان",
-        "email": "عنوان البريد الإلكتروني",
-        "phone": "رقم الهاتف",
-        "location": "المملكة العربية السعودية، الرياض"
+    "ar": {
+      "address": "العنوان",
+      "email": "عنوان البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "location": "المملكة العربية السعودية، الرياض"
+    },
+    "fr": {
+      "address": "adresse",
+      "email": "adresse e-mail",
+      "phone": "numéro de téléphone",
+      "location": "Arabie Saoudite, Riyadh"
+    },
+    "es": {
+      "address": "dirección",
+      "email": "dirección de correo electrónico",
+      "phone": "número de teléfono",
+      "location": "Arabia Saudita, Riad"
+    },
+    "it": {
+      "address": "indirizzo",
+      "email": "indirizzo email",
+      "phone": "numero di telefono",
+      "location": "Arabia Saudita, Riyadh"
+    },
+    "de": {
+      "address": "Adresse",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "location": "Saudi-Arabien, Riad"
     }
 }

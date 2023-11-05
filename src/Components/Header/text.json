@@ -1,5 +1,5 @@
 {
-    "en":{
+    "en": {
         "nav_links": [
             {"name": "Home", "path": "/home"},
             {"name": "About", "path": "/about"},
@@ -11,9 +11,20 @@
             {"name": "Recruitment", "path": "/recruitment"},
             {"name": "Contact US", "path": "/contact_us"}
         ],
-        "lang": "AR"
+        "lang": {
+            "button": "Language",
+            "select": "Select language:",
+            "languages": [
+                {"name": "Arabic", "value": "ar"},
+                {"name": "English", "value": "en"},
+                {"name": "French", "value": "fr"},
+                {"name": "Spanish", "value": "es"},
+                {"name": "Italian", "value": "it"},
+                {"name": "German", "value": "de"}
+            ]
+        }
     },
-    "ar":{
+    "ar": {
         "nav_links": [
             {"name": "الرئيسية", "path": "/home"},
             {"name": "من نحن", "path": "/about"},
@@ -25,6 +36,117 @@
             {"name": "التوظيف", "path": "/recruitment"},
             {"name": "اتصل بنا", "path": "/contact_us"}
         ],
-        "lang": "EN"
+        "lang": {
+            "button": "Language",
+            "select": "Select language:",
+            "languages": [
+                {"name": "Arabic", "value": "ar"},
+                {"name": "English", "value": "en"},
+                {"name": "French", "value": "fr"},
+                {"name": "Spanish", "value": "es"},
+                {"name": "Italian", "value": "it"},
+                {"name": "German", "value": "de"}
+            ]
+        }
+    },
+    "fr": {
+        "nav_links": [
+            {"name": "Accueil", "path": "/home"},
+            {"name": "À propos", "path": "/about"},
+            {"name": "Champ d'application", "drop_down": true, "routes": [
+                {"name": "Consommables", "path": "/consumables"},
+                {"name": "Appareils", "path": "/devices"}
+            ]},
+            {"name": "Développement durable", "path": "/development"},
+            {"name": "Recrutement", "path": "/recruitment"},
+            {"name": "Contactez-nous", "path": "/contact_us"}
+        ],
+        "lang": {
+            "button": "Language",
+            "select": "Select language:",
+            "languages": [
+                {"name": "Arabic", "value": "ar"},
+                {"name": "English", "value": "en"},
+                {"name": "French", "value": "fr"},
+                {"name": "Spanish", "value": "es"},
+                {"name": "Italian", "value": "it"},
+                {"name": "German", "value": "de"}
+            ]
+        }
+    },
+    "es": {
+        "nav_links": [
+            {"name": "Inicio", "path": "/home"},
+            {"name": "Acerca de", "path": "/about"},
+            {"name": "Ámbito de trabajo", "drop_down": true, "routes": [
+                {"name": "Consumibles", "path": "/consumables"},
+                {"name": "Dispositivos", "path": "/devices"}
+            ]},
+            {"name": "Desarrollo Sostenible", "path": "/development"},
+            {"name": "Reclutamiento", "path": "/recruitment"},
+            {"name": "Contáctenos", "path": "/contact_us"}
+        ],
+        "lang": {
+            "button": "Language",
+            "select": "Select language:",
+            "languages": [
+                {"name": "Arabic", "value": "ar"},
+                {"name": "English", "value": "en"},
+                {"name": "French", "value": "fr"},
+                {"name": "Spanish", "value": "es"},
+                {"name": "Italian", "value": "it"},
+                {"name": "German", "value": "de"}
+            ]
+        }
+    },
+    "it": {
+        "nav_links": [
+            {"name": "Home", "path": "/home"},
+            {"name": "Chi siamo", "path": "/about"},
+            {"name": "Ambito di lavoro", "drop_down": true, "routes": [
+                {"name": "Consumabili", "path": "/consumables"},
+                {"name": "Dispositivi", "path": "/devices"}
+            ]},
+            {"name": "Sviluppo sostenibile", "path": "/development"},
+            {"name": "Reclutamento", "path": "/recruitment"},
+            {"name": "Contattaci", "path": "/contact_us"}
+        ],
+        "lang": {
+            "button": "Language",
+            "select": "Select language:",
+            "languages": [
+                {"name": "Arabic", "value": "ar"},
+                {"name": "English", "value": "en"},
+                {"name": "French", "value": "fr"},
+                {"name": "Spanish", "value": "es"},
+                {"name": "Italian", "value": "it"},
+                {"name": "German", "value": "de"}
+            ]
+        }
+    },
+    "de": {
+        "nav_links": [
+            {"name": "Startseite", "path": "/home"},
+            {"name": "Über uns", "path": "/about"},
+            {"name": "Tätigkeitsbereich", "drop_down": true, "routes": [
+                {"name": "Verbrauchsmaterialien", "path": "/consumables"},
+                {"name": "Geräte", "path": "/devices"}
+            ]},
+            {"name": "Nachhaltige Entwicklung", "path": "/development"},
+            {"name": "Recruitment", "path": "/recruitment"},
+            {"name": "Kontaktiere uns", "path": "/contact_us"}
+        ],
+        "lang": {
+            "button": "Language",
+            "select": "Select language:",
+            "languages": [
+                {"name": "Arabic", "value": "ar"},
+                {"name": "English", "value": "en"},
+                {"name": "French", "value": "fr"},
+                {"name": "Spanish", "value": "es"},
+                {"name": "Italian", "value": "it"},
+                {"name": "German", "value": "de"}
+            ]
+        }
     }
 }

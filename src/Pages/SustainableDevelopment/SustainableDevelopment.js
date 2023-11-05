@@ -16,12 +16,10 @@ function SustainableDevelopment() {
       <Container>
         <img src={EyeIcon} alt="Eye" className='animate__animated animate__backInDown' />
         <div className='description'>
-          <p>{Text.description_1}</p>
-          <p>{Text.description_2}</p>
-          <p>{Text.description_3}</p>
-          <p>{Text.description_4}</p>
-          <p>{Text.description_5}</p>
-          <p>{Text.description_6}</p>
+          <p>{Text.description}</p>
+          <p>{Text.description}</p>
+          <p>{Text.description}</p>
+          <p>{Text.description}</p>
         </div>
       </Container>
     </div>

@@ -11,7 +11,10 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
+  Modal,
+  ModalHeader,
+  ModalBody,
 } from 'reactstrap';
 import { dependencies } from '../../Tools/dependencies';
 import Logo from '../../assets/images/vision_care.png'
@@ -25,6 +28,9 @@ function Header(args) {
 
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+
+  const [modal, setModal] = useState(false);
+  const toggleLangModal = () => setModal(!modal);
 
   useEffect(()=> {
     setIndexDir()
@@ -40,13 +46,12 @@ function Header(args) {
     }
     html.setAttributeNode(att)
   }
-  const handleLangChange = () => {
-    if(currentLang === "en"){
-      localStorage.lang = "ar";
-    }else{
-      localStorage.lang = "en";
+  const handleLangChange = (lang) => {
+    console.log(lang)
+    if(currentLang !== lang){
+      localStorage.lang = lang;
+      window.location.reload();
     }
-    window.location.reload();
   }
 
   return (
@@ -66,8 +71,8 @@ function Header(args) {
                   </DropdownToggle>
                   <DropdownMenu right>
                     {ele.routes.map((item, index) => (
-                      <DropdownItem key={index} href={item.path}>
-                        {item.name}
+                      <DropdownItem key={index}>
+                        <NavLink className={window.location.pathname === item.path ? "active" : ""} href={item.path}>{item.name}</NavLink> 
                       </DropdownItem>
                     ))}
                   </DropdownMenu>
@@ -79,13 +84,22 @@ function Header(args) {
             ))}
           </Nav>
           <div className="lang_btn_container">
-            <Button className='lang_btn' onClick={()=>handleLangChange("en")}>
-              {Text.lang}
+            <Button className='lang_btn' onClick={toggleLangModal}>
+              {Text.lang.button}
               <i className="fa-solid fa-globe"></i>
             </Button>
           </div>
         </Collapse>
       </Navbar>
+      {/* Language Modal */}
+      <Modal isOpen={modal} toggle={toggleLangModal} {...args}>
+        <ModalHeader toggle={toggleLangModal}>{Text.lang.select}</ModalHeader>
+        <ModalBody>
+        {Text.lang.languages.map((ele, index) => (
+          <p key={index} onClick={()=>handleLangChange(ele.value)}>{ele.name}</p>
+        ))}
+        </ModalBody>
+      </Modal>
     </div>
   );
 }

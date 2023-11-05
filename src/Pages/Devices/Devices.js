@@ -9,7 +9,7 @@ function Devices() {
 
   return (
     <div style={{"height": "500px", "textAlign": "center", "lineHeight": "500px", "fontSize": "30px"}}>
-      {Text.home}
+      {Text.devices}
     </div>
   )
 }

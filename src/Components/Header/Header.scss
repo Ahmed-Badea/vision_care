@@ -21,7 +21,7 @@
         text-align: center;
         box-shadow: rgb(220, 220, 220) 0px 2px 10px;
         .navbar-brand{
-            width: 120px;
+            width: 130px;
             @include en{
                 margin-right: 50px;
             }
@@ -41,17 +41,41 @@
                 }
             }
         }
+        .navbar-collapse{
+            bottom: 0;
+            background-color: #01338D;
+            padding: 10px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
         .nav-item a{
             text-transform: uppercase;
             font-weight: bold;
-            color: #01338D;
-            border-bottom: 2px solid #FFF;
+            color: #FFF;
+            border-bottom: 4px solid #01338D;
             margin: 0 5px;
             transition: all ease-in-out .2s;
             &:hover, &.active{
-                border-bottom: 2px solid #3FD5FF;
+                border-bottom: 4px solid #3FD5FF;
             }
-
+        }
+        .dropdown-menu{
+            text-align: center;
+            padding: 15px;
+            .dropdown-item{
+                padding: 0;
+                color: #01338D;
+                // margin: 0;
+                &:hover{
+                    background-color: #FFF;
+                }
+                a{
+                    color: #01338D;
+                }
+            }
         }
         .navbar-toggler{
             border-color: #0678D6;
@@ -71,30 +95,70 @@
             margin-right: auto;
         }
         .lang_btn{
-            background-color: #0678D6;
+            background-color: #01338D;
             color: #FFF;
-            border: 1px solid #0678D6 !important;
+            border: 1px solid #3FD5FF !important;
             padding: 10px 0 10px 10px;
             @include ar{
                 padding: 10px 10px 10px 0;
             }
-            &:hover,
-            &:focus,
-            &:active{
-                background-color: #0678D6 !important;
-                color: #FFF !important;
-                border: 1px solid #0678D6 !important;
+            &:hover{
+                background-color: #3FD5FF !important;
+                color: #01338D !important;
+                border: 1px solid #3FD5FF !important;
+            }
+            &:focus{
                 box-shadow: none !important;
             }
             i{
                 margin: 0 10px;
             }
-            border-radius: 20px;
-            -webkit-border-radius: 20px;
-            -moz-border-radius: 20px;
-            -ms-border-radius: 20px;
-            -o-border-radius: 20px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+    }
 }
+.modal{
+    text-align: center;
+    .modal-title{
+        color: #01338D;
+    }
+    .btn-close{
+        @include ar{
+            margin: 0;
+        }
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    .modal-content{
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    p{
+        width: fit-content;
+        display: inline-block;
+        font-size: 18px;
+        color: #01338D;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #01338D;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        &:hover{
+            background-color: #01338D;
+            color: #FFF;
+        }
     }
 }
 @media (max-width: 998px) {

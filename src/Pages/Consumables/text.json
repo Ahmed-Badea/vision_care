@@ -1,9 +1,20 @@
 {
-    "en":{
-        "home": "Consumables"
+    "en": {
+      "consumables": "Consumables"
     },
-    "ar":{
-        "home": "المواد الاستهلاكية"
-        
+    "ar": {
+      "consumables": "Consumables"
+    },
+    "fr": {
+      "consumables": "Consumables"
+    },
+    "es": {
+      "consumables": "Consumables"
+    },
+    "it": {
+      "consumables": "Consumables"
+    },
+    "de": {
+      "consumables": "Consumables"
     }
 }

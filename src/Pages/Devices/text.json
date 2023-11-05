@@ -1,9 +1,20 @@
 {
-    "en":{
-        "home": "Devices"
+    "en": {
+      "devices": "Devices"
     },
-    "ar":{
-        "home": "الأجهزة"
-        
+    "ar": {
+      "devices": "Devices"
+    },
+    "fr": {
+      "devices": "Devices"
+    },
+    "es": {
+      "devices": "Devices"
+    },
+    "it": {
+      "devices": "Devices"
+    },
+    "de": {
+      "devices": "Devices"
     }
 }
