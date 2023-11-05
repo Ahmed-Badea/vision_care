@@ -31,8 +31,8 @@ function ContactUs() {
                 <i className="fa fa-phone"></i> 
               </div>
               <p>{Text.phone}</p>
-              <a href="tel:+966 (11)4646699">
-                <span>+966 (11)4646699</span>
+              <a href="tel:+966 11 207 9919">
+                <span>+966 11 207 9919</span>
               </a>
             </div>
           </Col>
@@ -42,8 +42,8 @@ function ContactUs() {
                 <i className="fa fa-envelope"></i> 
               </div>
               <p>{Text.email}</p>
-              <a href="mailto:smeh@smeh.com.sa">
-                <span>smeh@smeh.com.sa</span>
+              <a href="mailto:info@visioncareksa.com">
+                <span>info@visioncareksa.com</span>
               </a>
             </div>
           </Col>

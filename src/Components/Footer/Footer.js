@@ -35,13 +35,13 @@ const Footer = () => {
                 <i className="fa fa-map-marker-alt"></i> 
                 {Text.location}
               </p>
-              <a href="tel:+966 (11)4646699">
+              <a href="tel:+966 11 207 9919">
                 <i className="fa fa-phone"></i>
-                +966 (11)4646699 
+                +966 11 207 9919
               </a>
-              <a href="mailto:smeh@smeh.com.sa">
+              <a href="mailto:info@visioncareksa.com">
                 <i className="fa fa-envelope"></i>
-                smeh@smeh.com.sa
+                info@visioncareksa.com
               </a>
             </div>
             <div>
