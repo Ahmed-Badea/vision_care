@@ -1,20 +1,80 @@
 {
-    "en": {
-      "consumables": "Consumables"
-    },
-    "ar": {
-      "consumables": "Consumables"
-    },
-    "fr": {
-      "consumables": "Consumables"
-    },
-    "es": {
-      "consumables": "Consumables"
-    },
-    "it": {
-      "consumables": "Consumables"
-    },
-    "de": {
-      "consumables": "Consumables"
-    }
+  "en": {
+    "services": "PROFESSIONAL SERVICES & SOLUTIONS",
+    "work_scope": "Work Scope",
+    "work_scope_description": "We are working to provide a range of advanced professional services and solutions according to the highest standards of quality, workmanship, and safety, to all our customers in each of the sectors",
+    "consumables": "Consumables:",
+    "surgical_knives": "Surgical Knives",
+    "iols": "IOLs (Intra Ocular lenses)",
+    "ultra_plug": "Ultra Plug",
+    "glaucoma": "Glaucoma MIGS & Shunts",
+    "sutures": "Sutures",
+    "ovd": "OVD (Ophthalmic Viscoelastic)",
+    "instruments": "Instruments"
+  },
+  "ar": {
+    "services": "الخدمات المهنية والحلول",
+    "work_scope": "نطاق العمل",
+    "work_scope_description": "نحن نعمل على تقديم مجموعة من الخدمات المهنية المتقدمة والحلول وفقًا لأعلى معايير الجودة والحرفية والسلامة لجميع عملائنا في كل قطاع",
+    "consumables": "مستلزمات الجراحة:",
+    "surgical_knives": "سكاكين جراحية",
+    "iols": "العدسات الداخلية للعين (IOLs)",
+    "ultra_plug": "التوصيل الفائق (Ultra Plug)",
+    "glaucoma": "أجهزة الزرع والجسور لعلاج الجلوكوما",
+    "sutures": "الخيوط الجراحية",
+    "ovd": "المواد المعقمة للعين (OVD)",
+    "instruments": "الأدوات الجراحية"
+  },
+  "fr": {
+    "services": "SERVICES PROFESSIONNELS ET SOLUTIONS",
+    "work_scope": "Domaine de travail",
+    "work_scope_description": "Nous travaillons pour fournir une gamme de services professionnels avancés et de solutions selon les normes les plus élevées de qualité, d'artisanat et de sécurité à tous nos clients dans chacun des secteurs",
+    "consumables": "Consommables :",
+    "surgical_knives": "Couteaux chirurgicaux",
+    "iols": "Lentilles intraoculaires (IOL)",
+    "ultra_plug": "Prise ultra",
+    "glaucoma": "Dispositifs MIGS et shunts pour le glaucome",
+    "sutures": "Fils de suture",
+    "ovd": "Viscoélastique ophtalmique (OVD)",
+    "instruments": "Instruments"
+  },
+  "es": {
+    "services": "SERVICIOS PROFESIONALES Y SOLUCIONES",
+    "work_scope": "Ámbito de trabajo",
+    "work_scope_description": "Estamos trabajando para proporcionar una amplia gama de servicios profesionales avanzados y soluciones de acuerdo con los más altos estándares de calidad, artesanía y seguridad a todos nuestros clientes en cada uno de los sectores",
+    "consumables": "Consumibles:",
+    "surgical_knives": "Bisturíes",
+    "iols": "LIOs (Lentes intraoculares)",
+    "ultra_plug": "Conector Ultra",
+    "glaucoma": "MIGS y derivaciones para el glaucoma",
+    "sutures": "Suturas",
+    "ovd": "Viscoelásticos oftálmicos (OVD)",
+    "instruments": "Instrumentos"
+  },
+  "it": {
+    "services": "SERVIZI PROFESSIONALI E SOLUZIONI",
+    "work_scope": "Campo di lavoro",
+    "work_scope_description": "Lavoriamo per offrire una vasta gamma di servizi professionali avanzati e soluzioni secondo gli standard più elevati di qualità, artigianato e sicurezza a tutti i nostri clienti in ciascuno dei settori",
+    "consumables": "Consumabili:",
+    "surgical_knives": "Bisturi chirurgici",
+    "iols": "LIO (Lenti intraoculari)",
+    "ultra_plug": "Spina Ultra",
+    "glaucoma": "MIGS e deviazioni per il glaucoma",
+    "sutures": "Suture",
+    "ovd": "Viscoelastico oftalmico (OVD)",
+    "instruments": "Strumenti"
+  },
+  "de": {
+    "services": "PROFESSIONELLE DIENSTLEISTUNGEN UND LÖSUNGEN",
+    "work_scope": "Arbeitsbereich",
+    "work_scope_description": "Wir arbeiten daran, eine breite Palette von fortgeschrittenen professionellen Dienstleistungen und Lösungen gemäß den höchsten Qualitäts-, Handwerks- und Sicherheitsstandards für alle unsere Kunden in allen Sektoren anzubieten",
+    "consumables": "Verbrauchsmaterial:",
+    "surgical_knives": "Chirurgische Messer",
+    "iols": "IOL (Intraokularlinsen)",
+    "ultra_plug": "Ultra-Stecker",
+    "glaucoma": "MIGS und Shunts für Glaukom",
+    "sutures": "Nahtmaterial",
+    "ovd": "OVD (Ophthalmisches viskoelastisches Material)",
+    "instruments": "Instrumente"
+  }
 }

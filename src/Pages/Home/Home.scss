@@ -139,85 +139,6 @@
       }
     }
   }
-  // Work Scope
-  .work_scope {
-    color: #FFF;
-    padding: 100px 0;
-    background-image: url(./../../assets//images/feature.png);
-    background-size: cover;
-    h6{
-      position: relative;
-      display: inline-block;
-      font-size: 14px;
-      line-height: 24px;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 20px;
-      &:before {
-        position: absolute;
-        bottom: 3px;
-        left: 0;
-        right: 0;
-        content: "";
-        height: 1px;
-        background-color: #02ccff;
-      }
-    }
-    h2 {
-      font-family: "Roboto-Bold";
-      text-transform: uppercase;
-      margin-bottom: 70px;
-    }
-    h3 {
-      font-family: "Roboto-Light";
-      margin-bottom: 20px;
-    }
-    hr{
-      margin: 50px auto;
-      border: 1px solid #0368B0;
-      width: 70%;
-    }
-    .scope {
-      font-family: "Roboto-Medium";
-      display: flex;
-      align-items: center;
-      color: #FFF;
-      border: 2px solid #FFF;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 20px;
-      cursor: pointer;
-      transition: all ease-in-out 0.3s;
-      -webkit-transition: all ease-in-out 0.3s;
-      -moz-transition: all ease-in-out 0.3s;
-      -ms-transition: all ease-in-out 0.3s;
-      -o-transition: all ease-in-out 0.3s;
-      &:hover {
-        transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        background-color: #FFF;
-        color: #04035F;
-        border: 2px solid #04035F;
-      }
-      img {
-        width: 75px;
-        @include en {
-          margin-right: 30px;
-        }
-        @include ar {
-          margin-left: 30px;
-        }
-      }
-      p {
-        font-size: 20px;
-        margin: 0;
-      }
-    }
-  }
   // Company Brief
   .company_brief {
     position: relative;
@@ -317,13 +238,6 @@
 
       .arrow_down{
         bottom: 100px;
-      }
-    }
-    // Work Scope
-    .work_scope {
-      padding: 20px 10px;
-      h2{
-        margin-bottom: 30px;
       }
     }
     // Company Brief

@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react'
 import { useIsVisible } from "react-is-visible"
 import { Row, Col, Container } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
-import CompanyBriefImage from '../../assets/images/company_brief.png'
 // Consumables Icons
 import KnivesIcon from '../../assets/images/consumables/01.png'
 import IOLsIcon from '../../assets/images/consumables/02.png'
