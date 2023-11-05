@@ -2,6 +2,10 @@
     font-family: "Roboto-Bold";
     src: url("./../../assets//fonts/Roboto/Roboto-Bold.ttf") format("opentype");
 }
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("./../../assets//fonts/Roboto/Roboto-Medium.ttf") format("opentype");
+}
 
 @mixin m($width){
     @media(max-width:#{$width}px){
@@ -24,10 +28,14 @@
     padding: 150px 0;
     background-image: url(./../../assets//images/contact_us.png);
     background-size: cover;
+    .row{
+        justify-content: center;
+    }
     .box{
         background-color: #F6F4F9;
         font-size: 25px;
         padding: 50px 0;
+        margin: 20px;
         text-align: center;
         border-radius: 15px;
         -webkit-border-radius: 15px;
@@ -77,8 +85,8 @@
         }
         span{
             display: block;
-            font-size: 20px;
-            font-family: "Roboto-Light";
+            font-size: 18px;
+            font-family: "Roboto-Medium";
         }
     }
 }

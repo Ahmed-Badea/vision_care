@@ -15,6 +15,8 @@
         ],
         "social": "Social Links",
         "location": "Saudi Arabia, Riyadh",
+        "zip_code": "zip code :",
+        "po_box": "p.o box :",
         "copy_right": "All rights reserved - TALENT VISION CARE © 2023"
     },
     "ar": {
@@ -33,6 +35,8 @@
         ],
         "social": "روابط التواصل الاجتماعي",
         "location": "المملكة العربية السعودية، الرياض",
+        "zip_code": "الرمز البريدي :",
+        "po_box": "ص.ب :",
         "copy_right": "جميع الحقوق محفوظة - TALENT VISION CARE © 2023"
     },
     "fr": {
@@ -51,6 +55,8 @@
         ],
         "social": "Liens sociaux",
         "location": "Arabie Saoudite, Riyadh",
+        "zip_code": "code postal :",
+        "po_box": "boîte postale :",
         "copy_right": "Tous droits réservés - TALENT VISION CARE © 2023"
     },
     "es": {
@@ -69,6 +75,8 @@
         ],
         "social": "Enlaces sociales",
         "location": "Arabia Saudita, Riyadh",
+        "zip_code": "código postal :",
+        "po_box": "apartado de correos :",
         "copy_right": "Todos los derechos reservados - TALENT VISION CARE © 2023"
     },
     "it": {
@@ -87,6 +95,8 @@
         ],
         "social": "Collegamenti sociali",
         "location": "Arabia Saudita, Riyadh",
+        "zip_code": "codice postale :",
+        "po_box": "casella postale :",
         "copy_right": "Tutti i diritti riservati - TALENT VISION CARE © 2023"
     },
     "de": {
@@ -105,6 +115,8 @@
         ],
         "social": "Soziale Links",
         "location": "Saudi-Arabien, Riyadh",
+        "zip_code": "Postleitzahl :",
+        "po_box": "Postfach :",
         "copy_right": "Alle Rechte vorbehalten - TALENT VISION CARE © 2023"
     }
 }
