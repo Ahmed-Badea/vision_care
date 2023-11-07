@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
 import KnivesIcon from '../../assets/images/consumables/knives.jpg'
-import IOLsIcon from '../../assets/images/consumables/knives.jpg'
+import IOLsIcon from '../../assets/images/consumables/iols.jpg'
 import UltraIcon from '../../assets/images/consumables/ultra_plug.jpg'
 import GlaucomaIcon from '../../assets/images/consumables/migs.jpg'
 import SuturesIcon from '../../assets/images/consumables/sutures.jpg'
-import OVDIcon from '../../assets/images/consumables/knives.jpg'
+import OVDIcon from '../../assets/images/consumables/ovd.jpg'
 import InstrumentsIcon from '../../assets/images/consumables/instruments.jpg'
 import text from './text.json'
 
