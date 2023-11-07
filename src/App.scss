@@ -100,6 +100,7 @@ html[dir="rtl"] body{
       p {
         font-size: 20px;
         margin: 0;
+        word-break: break-word;
       }
     }
   }
@@ -114,6 +115,13 @@ html[dir="rtl"] body{
       padding: 100px 10px;
       h2{
         margin-bottom: 30px;
+      }
+      .scope{
+        margin: 20px 0;
+        img {
+          width: 100px;
+          height: 100px;
+        }
       }
     }
   }
