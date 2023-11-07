@@ -19,15 +19,13 @@ function Devices() {
       <Container>
         <Row>
           <Col lg={6}>
-            <h6>{Text.services}</h6>
-            <h2>{Text.work_scope}</h2>
+            <h2>{Text.devices}</h2>
           </Col>
           <Col lg={6}>
             <p>{Text.work_scope_description}</p>
           </Col>
           <Col lg={12}>
             <Row>
-              <h3>{Text.devices}</h3>
               <Col lg={4} md={6} sm={12}>
                 <div className='scope'>
                   <img src={PhacoIcon} alt='PhacoIcon' />

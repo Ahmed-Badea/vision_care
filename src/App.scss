@@ -51,38 +51,10 @@ html[dir="rtl"] body{
     padding: 100px 0;
     background-image: url(./assets//images/feature.png);
     background-size: cover;
-    h6{
-      position: relative;
-      display: inline-block;
-      font-size: 14px;
-      line-height: 24px;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 20px;
-      &:before {
-        position: absolute;
-        bottom: 3px;
-        left: 0;
-        right: 0;
-        content: "";
-        height: 1px;
-        background-color: #02ccff;
-      }
-    }
     h2 {
       font-family: "Roboto-Bold";
       text-transform: uppercase;
       margin-bottom: 70px;
-    }
-    h3 {
-      font-family: "Roboto-Light";
-      margin-bottom: 20px;
-    }
-    hr{
-      margin: 50px auto;
-      border: 1px solid #0368B0;
-      width: 70%;
     }
     .scope {
       font-family: "Roboto-Medium";
