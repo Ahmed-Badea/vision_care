@@ -27,43 +27,43 @@ function Consumables() {
           </Col>
           <Col lg={12}>
             <Row>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={KnivesIcon} alt='KnivesIcon' />
                   <p>{Text.surgical_knives}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={IOLsIcon} alt='IOLsIcon' />
                   <p>{Text.iols}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={UltraIcon} alt='UltraIcon' />
                   <p>{Text.ultra_plug}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={GlaucomaIcon} alt='GlaucomaIcon' />
                   <p>{Text.glaucoma}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={SuturesIcon} alt='SuturesIcon' />
                   <p>{Text.sutures}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={OVDIcon} alt='OVDIcon' />
                   <p>{Text.ovd}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={InstrumentsIcon} alt='InstrumentsIcon' />
                   <p>{Text.instruments}</p>

@@ -26,37 +26,37 @@ function Devices() {
           </Col>
           <Col lg={12}>
             <Row>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={PhacoIcon} alt='PhacoIcon' />
                   <p>{Text.phaco}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={LaserIcon} alt='LaserIcon' />
                   <p>{Text.laser}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={YAGLaserIcon} alt='YAGLaserIcon' />
                   <p>{Text.yag}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={UltrasoundIcon} alt='UltrasoundIcon' />
                   <p>{Text.ultrasound}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={MachinesIcon} alt='MachinesIcon' />
                   <p>{Text.machines}</p>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={12}>
+              <Col lg={6} md={12} sm={12}>
                 <div className='scope'>
                   <img src={UnitsIcon} alt='UnitsIcon' />
                   <p>{Text.units}</p>
