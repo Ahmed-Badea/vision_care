@@ -142,7 +142,9 @@
   // Company Brief
   .company_brief {
     position: relative;
-    color: #144C77;
+    overflow: hidden;
+    text-align: center;
+    padding: 150px 0;
     &::before{
       content: "";
       position: absolute;
@@ -151,77 +153,13 @@
       background: #08E4FF;
       z-index: -1;
       top: -40px;
-      transform: skewY(-6deg);
       left: 0;
       transform-origin: top left;
-    }
-    img{
-      width: 100%;
-      height: 100%;
-      max-width: 100%;
-    }
-    .brief {
-      padding: 40px;
-      max-width: 850px;
-      margin: auto;
-      h3 {
-        font-size: 30px;
-        margin: 20px 0;
-        text-align: left;
-        @include ar{
-          text-align: right;
-        }
-      }
-      h5 {
-        font-size: 18px;
-        text-align: justify;
-      }
-    }
-  }
-  // Contact Us
-  .contact_us{
-    padding: 100px 0;
-    .contact_us_conatiner{
-      background-image: url(../../assets/images/contact_us.png);
-      background-size: cover;
-      padding: 100px 50px;
-      margin: auto;
-      color: #FFF;
-      text-transform: uppercase;
-      border-radius: 10px;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
-      a{
-        display: block;
-        margin: auto;
-        padding: 0 10px;
-        text-align: center;
-        color: #FFF;
-        background-color: #0678D6;
-        border: 1px solid#0678D6;
-        min-width: 200px;
-        max-width: fit-content;
-        height: 70px;
-        line-height: 70px;
-        font-size: 24px;
-        text-decoration: none;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-        transition: all ease-in-out .3s;
-        -webkit-transition: all ease-in-out .3s;
-        -moz-transition: all ease-in-out .3s;
-        -ms-transition: all ease-in-out .3s;
-        -o-transition: all ease-in-out .3s;
-        &:hover{
-          background-color: #FFF;
-          color: #0678D6;
-        }
-      }
+      transform: skewY(-25deg);
+      -webkit-transform: skewY(-25deg);
+      -moz-transform: skewY(-25deg);
+      -ms-transform: skewY(-25deg);
+      -o-transform: skewY(-25deg);
     }
   }
 }
@@ -242,34 +180,13 @@
     }
     // Company Brief
     .company_brief {
-      display: block;
-      padding: 0 15px 20px;
-      img {
-        width: 100%;
-      }
-      .brief {
-        padding: 40px 0;
-        h3 {
-          margin: 20px 0;
-        }
-      }
-    }
-    // Contact US
-    .contact_us{
-      padding: 100px 0;
-      .contact_us_conatiner{
-        padding: 100px 30px;
-        text-align: center;
-        p{
-          font-size: 18px;
-        }
-        h4{
-          font-size: 30px;
-          font-family: "Roboto-Bold";
-        }
-        a{
-          margin: 20px auto 0;
-        }
+      &::before{
+        transform: skewY(-50deg);
+        transform-origin: top left;
+        -webkit-transform: skewY(-50deg);
+        -moz-transform: skewY(-50deg);
+        -ms-transform: skewY(-50deg);
+        -o-transform: skewY(-50deg);
       }
     }
   }
