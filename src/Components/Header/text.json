@@ -15,12 +15,12 @@
             "button": "Language",
             "select": "Select language:",
             "languages": [
-                {"name": "Arabic", "value": "ar"},
+                {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
-                {"name": "French", "value": "fr"},
-                {"name": "Spanish", "value": "es"},
-                {"name": "Italian", "value": "it"},
-                {"name": "German", "value": "de"}
+                {"name": "Français", "value": "fr"},
+                {"name": "Español", "value": "es"},
+                {"name": "Italiana", "value": "it"},
+                {"name": "Deutsch", "value": "de"}
             ]
         }
     },
@@ -40,12 +40,12 @@
             "button": "Language",
             "select": "Select language:",
             "languages": [
-                {"name": "Arabic", "value": "ar"},
+                {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
-                {"name": "French", "value": "fr"},
-                {"name": "Spanish", "value": "es"},
-                {"name": "Italian", "value": "it"},
-                {"name": "German", "value": "de"}
+                {"name": "Français", "value": "fr"},
+                {"name": "Español", "value": "es"},
+                {"name": "Italiana", "value": "it"},
+                {"name": "Deutsch", "value": "de"}
             ]
         }
     },
@@ -65,12 +65,12 @@
             "button": "Language",
             "select": "Select language:",
             "languages": [
-                {"name": "Arabic", "value": "ar"},
+                {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
-                {"name": "French", "value": "fr"},
-                {"name": "Spanish", "value": "es"},
-                {"name": "Italian", "value": "it"},
-                {"name": "German", "value": "de"}
+                {"name": "Français", "value": "fr"},
+                {"name": "Español", "value": "es"},
+                {"name": "Italiana", "value": "it"},
+                {"name": "Deutsch", "value": "de"}
             ]
         }
     },
@@ -90,12 +90,12 @@
             "button": "Language",
             "select": "Select language:",
             "languages": [
-                {"name": "Arabic", "value": "ar"},
+                {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
-                {"name": "French", "value": "fr"},
-                {"name": "Spanish", "value": "es"},
-                {"name": "Italian", "value": "it"},
-                {"name": "German", "value": "de"}
+                {"name": "Français", "value": "fr"},
+                {"name": "Español", "value": "es"},
+                {"name": "Italiana", "value": "it"},
+                {"name": "Deutsch", "value": "de"}
             ]
         }
     },
@@ -115,12 +115,12 @@
             "button": "Language",
             "select": "Select language:",
             "languages": [
-                {"name": "Arabic", "value": "ar"},
+                {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
-                {"name": "French", "value": "fr"},
-                {"name": "Spanish", "value": "es"},
-                {"name": "Italian", "value": "it"},
-                {"name": "German", "value": "de"}
+                {"name": "Français", "value": "fr"},
+                {"name": "Español", "value": "es"},
+                {"name": "Italiana", "value": "it"},
+                {"name": "Deutsch", "value": "de"}
             ]
         }
     },
@@ -140,12 +140,12 @@
             "button": "Language",
             "select": "Select language:",
             "languages": [
-                {"name": "Arabic", "value": "ar"},
+                {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
-                {"name": "French", "value": "fr"},
-                {"name": "Spanish", "value": "es"},
-                {"name": "Italian", "value": "it"},
-                {"name": "German", "value": "de"}
+                {"name": "Français", "value": "fr"},
+                {"name": "Español", "value": "es"},
+                {"name": "Italiana", "value": "it"},
+                {"name": "Deutsch", "value": "de"}
             ]
         }
     }
