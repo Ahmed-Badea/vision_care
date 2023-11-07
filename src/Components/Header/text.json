@@ -37,8 +37,8 @@
             {"name": "اتصل بنا", "path": "/contact_us"}
         ],
         "lang": {
-            "button": "Language",
-            "select": "Select language:",
+            "button": "اللغة",
+            "select": "اختر اللغة:",
             "languages": [
                 {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
@@ -62,8 +62,8 @@
             {"name": "Contactez-nous", "path": "/contact_us"}
         ],
         "lang": {
-            "button": "Language",
-            "select": "Select language:",
+            "button": "Langue",
+            "select": "Choisir la langue:",
             "languages": [
                 {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
@@ -87,8 +87,8 @@
             {"name": "Contáctenos", "path": "/contact_us"}
         ],
         "lang": {
-            "button": "Language",
-            "select": "Select language:",
+            "button": "Idioma",
+            "select": "Seleccione el idioma:",
             "languages": [
                 {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
@@ -112,8 +112,8 @@
             {"name": "Contattaci", "path": "/contact_us"}
         ],
         "lang": {
-            "button": "Language",
-            "select": "Select language:",
+            "button": "Lingua",
+            "select": "Seleziona la lingua:",
             "languages": [
                 {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
@@ -137,8 +137,8 @@
             {"name": "Kontaktiere uns", "path": "/contact_us"}
         ],
         "lang": {
-            "button": "Language",
-            "select": "Select language:",
+            "button": "Sprache",
+            "select": "Sprache auswählen:",
             "languages": [
                 {"name": "العربية", "value": "ar"},
                 {"name": "English", "value": "en"},
