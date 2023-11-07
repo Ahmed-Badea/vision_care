@@ -1,13 +1,13 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
-import KnivesIcon from '../../assets/images/consumables/01.png'
-import IOLsIcon from '../../assets/images/consumables/02.png'
-import UltraIcon from '../../assets/images/consumables/03.png'
-import GlaucomaIcon from '../../assets/images/consumables/04.png'
-import SuturesIcon from '../../assets/images/consumables/05.png'
-import OVDIcon from '../../assets/images/consumables/06.png'
-import InstrumentsIcon from '../../assets/images/consumables/07.png'
+import KnivesIcon from '../../assets/images/consumables/knives.jpg'
+import IOLsIcon from '../../assets/images/consumables/knives.jpg'
+import UltraIcon from '../../assets/images/consumables/ultra_plug.jpg'
+import GlaucomaIcon from '../../assets/images/consumables/migs.jpg'
+import SuturesIcon from '../../assets/images/consumables/sutures.jpg'
+import OVDIcon from '../../assets/images/consumables/knives.jpg'
+import InstrumentsIcon from '../../assets/images/consumables/instruments.jpg'
 import text from './text.json'
 
 function Consumables() {

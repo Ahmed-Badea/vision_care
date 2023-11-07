@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
-import PhacoIcon from '../../assets/images/devices/01.png'
-import LaserIcon from '../../assets/images/devices/02.png'
-import YAGLaserIcon from '../../assets/images/devices/03.png'
-import UltrasoundIcon from '../../assets/images/devices/04.png'
-import MachinesIcon from '../../assets/images/devices/05.png'
-import UnitsIcon from '../../assets/images/devices/06.png'
+import PhacoIcon from '../../assets/images/devices/phaco.jpg'
+import LaserIcon from '../../assets/images/devices/photocoagulation.jpg'
+import YAGLaserIcon from '../../assets/images/devices/photodisruption.jpg'
+import UltrasoundIcon from '../../assets/images/devices/diagnostic_ultrasound.jpg'
+import MachinesIcon from '../../assets/images/devices/diagnostic machines.jpg'
+import UnitsIcon from '../../assets/images/devices/refraction_units.jpg'
 import text from './text.json'
 
 function Devices() {

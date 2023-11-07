@@ -82,8 +82,14 @@ html[dir="rtl"] body{
         border: 2px solid #04035F;
       }
       img {
-        width: 75px;
-        @include en {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        @include en{
           margin-right: 30px;
         }
         @include ar {
