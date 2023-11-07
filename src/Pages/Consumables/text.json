@@ -1,8 +1,6 @@
 {
   "en": {
-    "services": "PROFESSIONAL SERVICES & SOLUTIONS",
-    "work_scope": "Work Scope",
-    "work_scope_description": "We are working to provide a range of advanced professional services and solutions according to the highest standards of quality, workmanship, and safety, to all our customers in each of the sectors",
+    "work_scope_description": "We are working to provide a range of advanced professional services and solutions according to the highest standards of quality, and safety, to all our customers in each of the sectors",
     "consumables": "Consumables:",
     "surgical_knives": "Surgical Knives",
     "iols": "IOLs (Intra Ocular lenses)",
@@ -13,9 +11,7 @@
     "instruments": "Instruments"
   },
   "ar": {
-    "services": "الخدمات المهنية والحلول",
-    "work_scope": "نطاق العمل",
-    "work_scope_description": "نحن نعمل على تقديم مجموعة من الخدمات المهنية المتقدمة والحلول وفقًا لأعلى معايير الجودة والحرفية والسلامة لجميع عملائنا في كل قطاع",
+    "work_scope_description": "نعمل على تقديم مجموعة من الخدمات والحلول المهنية المتقدمة وفق أعلى معايير الجودة والسلامة لجميع عملائنا في كل قطاع من القطاعات",
     "consumables": "مستلزمات الجراحة:",
     "surgical_knives": "سكاكين جراحية",
     "iols": "العدسات الداخلية للعين (IOLs)",
@@ -26,9 +22,7 @@
     "instruments": "الأدوات الجراحية"
   },
   "fr": {
-    "services": "SERVICES PROFESSIONNELS ET SOLUTIONS",
-    "work_scope": "Domaine de travail",
-    "work_scope_description": "Nous travaillons pour fournir une gamme de services professionnels avancés et de solutions selon les normes les plus élevées de qualité, d'artisanat et de sécurité à tous nos clients dans chacun des secteurs",
+    "work_scope_description": "Nous nous efforçons de fournir une gamme de services et de solutions professionnels avancés selon les plus hauts standards de qualité et de sécurité à tous nos clients dans chacun des secteurs",
     "consumables": "Consommables :",
     "surgical_knives": "Couteaux chirurgicaux",
     "iols": "Lentilles intraoculaires (IOL)",
@@ -39,9 +33,7 @@
     "instruments": "Instruments"
   },
   "es": {
-    "services": "SERVICIOS PROFESIONALES Y SOLUCIONES",
-    "work_scope": "Ámbito de trabajo",
-    "work_scope_description": "Estamos trabajando para proporcionar una amplia gama de servicios profesionales avanzados y soluciones de acuerdo con los más altos estándares de calidad, artesanía y seguridad a todos nuestros clientes en cada uno de los sectores",
+    "work_scope_description": "Trabajamos para proporcionar una gama de servicios y soluciones profesionales avanzados según los más altos estándares de calidad y seguridad a todos nuestros clientes en cada uno de los sectores",
     "consumables": "Consumibles:",
     "surgical_knives": "Bisturíes",
     "iols": "LIOs (Lentes intraoculares)",
@@ -52,9 +44,7 @@
     "instruments": "Instrumentos"
   },
   "it": {
-    "services": "SERVIZI PROFESSIONALI E SOLUZIONI",
-    "work_scope": "Campo di lavoro",
-    "work_scope_description": "Lavoriamo per offrire una vasta gamma di servizi professionali avanzati e soluzioni secondo gli standard più elevati di qualità, artigianato e sicurezza a tutti i nostri clienti in ciascuno dei settori",
+    "work_scope_description": "Stiamo lavorando per fornire una gamma di servizi e soluzioni professionali avanzati secondo i più alti standard di qualità e sicurezza a tutti i nostri clienti in ciascuno dei settori",
     "consumables": "Consumabili:",
     "surgical_knives": "Bisturi chirurgici",
     "iols": "LIO (Lenti intraoculari)",
@@ -65,9 +55,7 @@
     "instruments": "Strumenti"
   },
   "de": {
-    "services": "PROFESSIONELLE DIENSTLEISTUNGEN UND LÖSUNGEN",
-    "work_scope": "Arbeitsbereich",
-    "work_scope_description": "Wir arbeiten daran, eine breite Palette von fortgeschrittenen professionellen Dienstleistungen und Lösungen gemäß den höchsten Qualitäts-, Handwerks- und Sicherheitsstandards für alle unsere Kunden in allen Sektoren anzubieten",
+    "work_scope_description": "Wir arbeiten daran, allen unseren Kunden in allen Sektoren eine Reihe fortschrittlicher professioneller Dienstleistungen und Lösungen gemäß den höchsten Qualitäts- und Sicherheitsstandards anzubieten",
     "consumables": "Verbrauchsmaterial:",
     "surgical_knives": "Chirurgische Messer",
     "iols": "IOL (Intraokularlinsen)",
