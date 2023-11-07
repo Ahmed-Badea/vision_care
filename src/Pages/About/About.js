@@ -37,6 +37,8 @@ function About() {
     }
   };
 
+  const sortedList = Text.values_description.slice().sort();
+
   const renderBody = () => (
     <div className="about_container">
       <Container>
@@ -69,11 +71,11 @@ function About() {
             <AccordionItem>
               <AccordionHeader targetId="4">{Text.values}</AccordionHeader>
               <AccordionBody accordionId="4">
-              <ul>
-              {Text.values_description.map((ele, index) => (
-                <li key={index}>{ele}</li>
-              ))}
-            </ul>
+                <ul>
+                  {sortedList.map((ele, index) => (
+                    <li key={index}>{ele}</li>
+                  ))}
+                </ul>
               </AccordionBody>
             </AccordionItem>
           </Accordion>
