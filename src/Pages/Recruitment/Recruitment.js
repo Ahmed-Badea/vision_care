@@ -18,8 +18,8 @@ function Recruitment() {
               <i className="fa fa-linkedin"></i> 
             </div>
             <p>{Text.linkedin}</p>
-            <a href="mailto:info@visioncareksa.com">
-              <span>info@visioncareksa.com</span>
+            <a href="https://www.linkedin.com/in/talent-vision-care-34888829a/">
+              <span>Talent Vision Care</span>
             </a>
           </div>
         </Col>

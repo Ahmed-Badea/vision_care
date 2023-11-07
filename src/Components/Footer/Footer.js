@@ -28,7 +28,7 @@ const Footer = () => {
           <a href='/'><i className="fa-brands fa-facebook-f"></i></a>
           <a href='/'><i className="fa-brands fa-instagram"></i></a>
           <a href='/'><i className="fa-brands fa-x-twitter"></i></a>
-          <a href='/'><i className="fa-brands fa-linkedin"></i></a>
+          <a href='https://www.linkedin.com/in/talent-vision-care-34888829a/'><i className="fa-brands fa-linkedin"></i></a>
           <a href='/'><i className="fa-brands fa-youtube"></i></a>
           <div className='contact_info'>
             <p>
