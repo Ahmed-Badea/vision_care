@@ -56,6 +56,7 @@ html[dir="rtl"] body{
   }
   // Work Scope
   .work_scope {
+    overflow: hidden;
     color: #FFF;
     padding: 100px 0;
     background-image: url(./assets//images/feature.png);
