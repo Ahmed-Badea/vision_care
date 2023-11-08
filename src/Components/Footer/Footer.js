@@ -59,7 +59,7 @@ const Footer = () => {
         <Col md={4} className='routes'>
           <h4>{Text.quick_links}</h4>
           {Text.quick_links_routes.map((route) => (
-            <a key={route.path} href={route.path}>{route.name}</a>
+            <a key={route.path} href={"/#" + route.path}>{route.name}</a>
           ))}
         </Col>
         <Col md={12}>

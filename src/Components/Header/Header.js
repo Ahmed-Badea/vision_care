@@ -71,14 +71,14 @@ function Header(args) {
                 <DropdownMenu right>
                   {ele.routes.map((item, index) => (
                     <DropdownItem key={index}>
-                      <NavLink className={window.location.pathname === item.path ? "active" : ""} href={item.path}>{item.name}</NavLink> 
+                      <NavLink className={window.location.pathname === item.path ? "active" : ""} href={"/#" + item.path}>{item.name}</NavLink> 
                     </DropdownItem>
                   ))}
                 </DropdownMenu>
               </UncontrolledDropdown>
             :
               <NavItem key={index} >
-                <NavLink className={window.location.pathname === ele.path ? "active" : ""} href={ele.path}>{ele.name}</NavLink>
+                <NavLink className={window.location.pathname === ele.path ? "active" : ""} href={"/#" + ele.path}>{ele.name}</NavLink>
               </NavItem>
           ))}
         </Nav>

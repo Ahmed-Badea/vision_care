@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useEffect, Suspense } from 'react';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import routes from './routes';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -14,23 +14,29 @@ function App() {
     }
   })
 
+  const loading = () => (
+    <p>Loading...</p>
+  )
+
   const renderBody = () => (
     <div className='vision_content'>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           {routes.map((ele) => (
             <Route key={ele.path} path={ele.path} element={<ele.component />} />
           ))}
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 
   return (
     <div className="App">
       <Header />
-      {renderBody()}
+      <Suspense fallback={loading()}>
+        {renderBody()}
+      </Suspense>
       <Footer />
     </div>
   );
