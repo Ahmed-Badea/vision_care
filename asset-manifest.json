@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e0155d5.css",
+    "main.css": "/static/css/main.e4b52129.css",
     "main.js": "/static/js/main.56c58df6.js",
     "static/css/24.21dd223b.chunk.css": "/static/css/24.21dd223b.chunk.css",
     "static/js/24.80b6ca22.chunk.js": "/static/js/24.80b6ca22.chunk.js",
@@ -36,7 +36,7 @@
     "static/media/sutures.jpg": "/static/media/sutures.f7b4ad48c60420ad2eb4.jpg",
     "static/media/ultra_plug.jpg": "/static/media/ultra_plug.01c2cfbb8e5e85c7f3a5.jpg",
     "index.html": "/index.html",
-    "main.9e0155d5.css.map": "/static/css/main.9e0155d5.css.map",
+    "main.e4b52129.css.map": "/static/css/main.e4b52129.css.map",
     "main.56c58df6.js.map": "/static/js/main.56c58df6.js.map",
     "24.21dd223b.chunk.css.map": "/static/css/24.21dd223b.chunk.css.map",
     "24.80b6ca22.chunk.js.map": "/static/js/24.80b6ca22.chunk.js.map",
@@ -53,7 +53,7 @@
     "787.b8e5a9a7.chunk.js.map": "/static/js/787.b8e5a9a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e0155d5.css",
+    "static/css/main.e4b52129.css",
     "static/js/main.56c58df6.js"
   ]
 }
