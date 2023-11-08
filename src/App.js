@@ -16,7 +16,9 @@ function App() {
   })
 
   const loading = () => (
-    <p>Loading...</p>
+    <div className='loading_page'>
+      <i className="fa fa-spinner fa-spin" aria-hidden="true"></i>
+    </div>
   )
 
   const renderBody = () => (

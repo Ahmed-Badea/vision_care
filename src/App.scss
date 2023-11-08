@@ -45,6 +45,15 @@ html[dir="rtl"] body{
   .vision_content{
     padding-top: 150px;
   }
+  .loading_page{
+    padding: 240px 20px 100px;
+    text-align: center;
+    i{
+      font-size: 100px;
+      line-height: 100px;
+      color: #04035F;
+    }
+  }
   // Work Scope
   .work_scope {
     color: #FFF;
