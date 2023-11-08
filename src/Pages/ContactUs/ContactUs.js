@@ -2,7 +2,6 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import {dependencies} from '../../Tools/dependencies'
 import text from './text.json'
-import 'animate.css';
 import './ContactUs.scss'
 
 function ContactUs() {

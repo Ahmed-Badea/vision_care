@@ -3,7 +3,6 @@ import { Container } from 'reactstrap';
 // import {dependencies} from '../../Tools/dependencies'
 import developIcon from './../../assets/images/develop.jpg'
 // import text from './text.json'
-import 'animate.css';
 import './SustainableDevelopment.scss'
 
 function SustainableDevelopment() {
