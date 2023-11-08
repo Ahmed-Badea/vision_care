@@ -18,46 +18,46 @@ function Devices() {
     <section className='work_scope'>
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={6} className='animate__animated animate__backInLeft'>
             <h2>{Text.devices}</h2>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} className='animate__animated animate__backInRight'>
             <p>{Text.work_scope_description}</p>
           </Col>
           <Col lg={12}>
             <Row>
               <Col lg={6} md={12} sm={12}>
-                <div className='scope'>
+                <div className='scope animate__animated animate__backInDown'>
                   <img src={PhacoIcon} alt='PhacoIcon' />
                   <p>{Text.phaco}</p>
                 </div>
               </Col>
               <Col lg={6} md={12} sm={12}>
-                <div className='scope'>
+                <div className='scope animate__animated animate__backInUp'>
                   <img src={LaserIcon} alt='LaserIcon' />
                   <p>{Text.laser}</p>
                 </div>
               </Col>
               <Col lg={6} md={12} sm={12}>
-                <div className='scope'>
+                <div className='scope animate__animated animate__backInDown'>
                   <img src={YAGLaserIcon} alt='YAGLaserIcon' />
                   <p>{Text.yag}</p>
                 </div>
               </Col>
               <Col lg={6} md={12} sm={12}>
-                <div className='scope'>
+                <div className='scope animate__animated animate__backInUp'>
                   <img src={UltrasoundIcon} alt='UltrasoundIcon' />
                   <p>{Text.ultrasound}</p>
                 </div>
               </Col>
               <Col lg={6} md={12} sm={12}>
-                <div className='scope'>
+                <div className='scope animate__animated animate__backInDown'>
                   <img src={MachinesIcon} alt='MachinesIcon' />
                   <p>{Text.machines}</p>
                 </div>
               </Col>
               <Col lg={6} md={12} sm={12}>
-                <div className='scope'>
+                <div className='scope animate__animated animate__backInUp'>
                   <img src={UnitsIcon} alt='UnitsIcon' />
                   <p>{Text.units}</p>
                 </div>
